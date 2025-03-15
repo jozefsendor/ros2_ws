@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mrpt_nav_interfaces__py",
+		"source" : "/home/jozef/ros2_ws/build/mrpt_nav_interfaces/mrpt_nav_interfaces__py"
+	}
+}

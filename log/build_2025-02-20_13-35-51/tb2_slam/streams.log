@@ -1,0 +1,24 @@
+[0.243s] Invoking command in '/home/jozef/ros2_ws/build/tb2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/tb2_slam -- -j8 -l8
+[0.389s] Invoked command in '/home/jozef/ros2_ws/build/tb2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/tb2_slam -- -j8 -l8
+[0.405s] Invoking command in '/home/jozef/ros2_ws/build/tb2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/tb2_slam
+[0.438s] -- Install configuration: ""
+[0.438s] -- Execute custom install script
+[0.438s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/rviz/mapping.rviz
+[0.438s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/launch/tb2_slam_launch.py
+[0.447s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/config/mapping_params.yaml
+[0.447s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/ament_index/resource_index/package_run_dependencies/tb2_slam
+[0.447s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/ament_index/resource_index/parent_prefix_path/tb2_slam
+[0.447s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/environment/ament_prefix_path.sh
+[0.448s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/environment/ament_prefix_path.dsv
+[0.448s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/environment/path.sh
+[0.448s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/environment/path.dsv
+[0.448s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/local_setup.bash
+[0.448s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/local_setup.sh
+[0.449s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/local_setup.zsh
+[0.450s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/local_setup.dsv
+[0.450s] -- Symlinking: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/package.dsv
+[0.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/ament_index/resource_index/packages/tb2_slam
+[0.496s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/cmake/tb2_slamConfig.cmake
+[0.500s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/cmake/tb2_slamConfig-version.cmake
+[0.500s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/tb2_slam/share/tb2_slam/package.xml
+[0.507s] Invoked command in '/home/jozef/ros2_ws/build/tb2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/tb2_slam

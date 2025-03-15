@@ -1,0 +1,85 @@
+/**:
+  ros__parameters:
+    gnss_samples_num_sigmas: 6.0
+    gui_camera_follow_robot: true
+    gui_enable: true
+    initial_particles_per_m2: 2000
+    initial_pose:
+      mean:
+        pitch: 0.0
+        roll: 0.0
+        x: 0.0
+        y: 0.0
+        yaw: 0.0
+        z: 0.0
+      std_pitch: 0.0
+      std_roll: 0.0
+      std_x: 1.0
+      std_y: 1.0
+      std_yaw: 6.0
+      std_z: 0.0
+    kld_options:
+      KLD_binSize_PHI: 0.17
+      KLD_binSize_XY: 0.25
+      KLD_delta: 0.05
+      KLD_epsilon: 0.05
+      KLD_maxSampleSize: 10000
+      KLD_minSampleSize: 50
+      KLD_minSamplesPerBin: 0
+    motion_model_2d:
+      gaussianModel:
+        a1: 0.02
+        a2: 0.001
+        a3: 1.0
+        a4: 0.25
+        minStdPHI: 0.4
+        minStdXY: 0.02
+      modelSelection: mmGaussian
+      thrunModel:
+        additional_std_XY: 0.01
+        additional_std_phi: 0.2
+        alfa1_rot_rot: 0.1
+        alfa2_rot_trans: 0.1
+        alfa3_trans_trans: 0.1
+        alfa4_trans_rot: 0.1
+    motion_model_3d:
+      modelSelection: mmGaussian
+    motion_model_no_odom_2d:
+      gaussianModel:
+        minStdPHI: 5.0
+        minStdXY: 0.4
+      modelSelection: mmGaussian
+    motion_model_no_odom_3d:
+      modelSelection: mmGaussian
+    override_likelihood_gridmaps:
+      LF_decimation: 1
+      LF_maxCorrsDistance: 1.0
+      LF_maxRange: 81.0
+      LF_stdHit: 2.0
+      LF_zHit: 0.9
+      LF_zRandom: 0.1
+      likelihoodMethod: lmLikelihoodField_Thrun
+    override_likelihood_point_maps:
+      decimation: 50
+      max_corr_distance: 1.5
+      sigma_dist: 0.1
+    pf_options:
+      BETA: 0.5
+      PF_algorithm: pfStandardProposal
+      adaptiveSampleSize: true
+      max_loglikelihood_dyn_range: 15
+      pfAuxFilterOptimal_MLE: false
+      pfAuxFilterOptimal_MaximumSearchSamples: 100
+      pfAuxFilterStandard_FirstStageWeightsMonteCarlo: false
+      powFactor: 1.0
+      resamplingMethod: prMultinomial
+    rate_hz: 1.0
+    relocalization_icp_sigma: 5.0
+    relocalization_initial_divisions_phi: 4
+    relocalization_initial_divisions_xy: 4
+    relocalization_minimum_icp_quality: 0.5
+    relocalization_resolution_phi: 10.0
+    relocalization_resolution_xy: 0.25
+    relocalize_num_sigmas: 3.0
+    samples_drawn_from_gnss: 20
+    use_se3_pf: false

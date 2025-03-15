@@ -1,0 +1,3 @@
+[ 33%] Built target mrpt_pointcloud_pipeline_composable
+[ 66%] Built target mrpt_pointcloud_pipeline_node
+[100%] Built target mrpt_pointcloud_pipeline_component

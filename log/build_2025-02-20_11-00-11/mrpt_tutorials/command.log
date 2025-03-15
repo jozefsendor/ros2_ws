@@ -1,0 +1,6 @@
+Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials
+Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials

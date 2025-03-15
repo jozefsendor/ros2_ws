@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/build/mrpt_msgs/ament_cmake_environment_hooks/local_setup.zsh

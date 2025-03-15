@@ -1,0 +1,15 @@
+{
+  "package_name": "mrpt_nav_interfaces",
+  "non_idl_tuples": [
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:action/NavigateGoal.action",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:action/NavigateWaypoints.action",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:msg/GeoreferencingMetadata.msg",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:msg/NavigationFeedback.msg",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:msg/NavigationFinalStatus.msg",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:srv/GetLayers.srv",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:srv/GetGridmapLayer.srv",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:srv/GetPointmapLayer.srv",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:srv/MakePlanFromTo.srv",
+    "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces:srv/MakePlanTo.srv"
+  ]
+}

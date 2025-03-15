@@ -1,0 +1,15 @@
+/home/jozef/ros2_ws/install/mrpt_navigation/share/ament_index/resource_index/package_run_dependencies/mrpt_navigation
+/home/jozef/ros2_ws/install/mrpt_navigation/share/ament_index/resource_index/parent_prefix_path/mrpt_navigation
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/environment/ament_prefix_path.sh
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/environment/ament_prefix_path.dsv
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/environment/path.sh
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/environment/path.dsv
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/local_setup.bash
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/local_setup.sh
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/local_setup.zsh
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/local_setup.dsv
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/package.dsv
+/home/jozef/ros2_ws/install/mrpt_navigation/share/ament_index/resource_index/packages/mrpt_navigation
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/cmake/mrpt_navigationConfig.cmake
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/cmake/mrpt_navigationConfig-version.cmake
+/home/jozef/ros2_ws/install/mrpt_navigation/share/mrpt_navigation/package.xml

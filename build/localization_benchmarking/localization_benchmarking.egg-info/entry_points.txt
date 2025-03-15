@@ -1,0 +1,3 @@
+[console_scripts]
+data_logger = localization_benchmarking.data_logger:main
+experiment_runner = localization_benchmarking.experiment_runner:main

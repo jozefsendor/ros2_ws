@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrpt_nav_interfaces/msg/NavigationFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module mrpt_nav_interfaces {
+  module msg {
+    struct NavigationFeedback {
+      int16 total_waypoints;
+
+      int16 reached_waypoints;
+    };
+  };
+};

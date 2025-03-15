@@ -1,0 +1,19 @@
+[3.124s] Invoking command in '/home/jozef/ros2_ws/build/localization_benchmarking': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data
+[4.406s] running develop
+[5.096s] running egg_info
+[5.148s] writing localization_benchmarking.egg-info/PKG-INFO
+[5.148s] writing dependency_links to localization_benchmarking.egg-info/dependency_links.txt
+[5.148s] writing entry points to localization_benchmarking.egg-info/entry_points.txt
+[5.148s] writing requirements to localization_benchmarking.egg-info/requires.txt
+[5.148s] writing top-level names to localization_benchmarking.egg-info/top_level.txt
+[5.273s] reading manifest file 'localization_benchmarking.egg-info/SOURCES.txt'
+[5.289s] writing manifest file 'localization_benchmarking.egg-info/SOURCES.txt'
+[5.367s] running build_ext
+[5.369s] Creating /home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages/localization-benchmarking.egg-link (link to .)
+[5.374s] Installing data_logger script to /home/jozef/ros2_ws/install/localization_benchmarking/lib/localization_benchmarking
+[5.374s] Installing experiment_runner script to /home/jozef/ros2_ws/install/localization_benchmarking/lib/localization_benchmarking
+[5.374s] Installing metrics_calculator script to /home/jozef/ros2_ws/install/localization_benchmarking/lib/localization_benchmarking
+[5.375s] 
+[5.380s] Installed /home/jozef/ros2_ws/build/localization_benchmarking
+[5.380s] running symlink_data
+[5.552s] Invoked command in '/home/jozef/ros2_ws/build/localization_benchmarking' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data

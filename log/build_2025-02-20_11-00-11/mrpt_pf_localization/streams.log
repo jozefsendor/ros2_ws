@@ -1,0 +1,132 @@
+[0.031s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pf_localization': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pf_localization
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.355s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.522s] -- Detecting C compiler ABI info - done
+[0.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.548s] -- Detecting C compile features
+[0.548s] -- Detecting C compile features - done
+[0.564s] -- Detecting CXX compiler ABI info
+[0.774s] -- Detecting CXX compiler ABI info - done
+[0.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.796s] -- Detecting CXX compile features
+[0.797s] -- Detecting CXX compile features - done
+[0.801s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.773s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.896s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.976s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.043s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.052s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.068s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.182s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.201s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.228s] -- Found mrpt_msgs: 0.5.0 (/home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake)
+[2.304s] -- Found pose_cov_ops: 0.3.13 (/opt/ros/humble/share/pose_cov_ops/cmake)
+[2.853s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.864s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.078s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.135s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.258s] -- Found Threads: TRUE  
+[3.488s] -- Found mrpt_msgs_bridge: 2.2.1 (/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake)
+[3.499s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.528s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.530s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.530s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.753s] -- Found mola_common: 0.4.0 (/opt/ros/humble/share/mola_common/cmake)
+[3.801s] -- MRPT_VERSION: 2.14.7
+[3.801s] -- mola_relocalization_FOUND: 1
+[3.821s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.832s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.848s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.987s] -- Configuring done
+[4.075s] -- Generating done
+[4.102s] -- Build files have been written to: /home/jozef/ros2_ws/build/mrpt_pf_localization
+[4.131s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pf_localization' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pf_localization
+[4.134s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pf_localization': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pf_localization -- -j8 -l8
+[4.238s] [  7%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_composable.dir/rclcpp_components/node_main_mrpt_pf_localization_composable.cpp.o[0m
+[4.243s] [ 14%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_core.dir/src/mrpt_pf_localization/mrpt_pf_localization_core.cpp.o[0m
+[4.243s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.509s] [ 28%] [32m[1mLinking CXX static library ../lib/libgtest_main.a[0m
+[6.682s] [ 28%] Built target gtest_main
+[6.729s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.569s] [ 42%] [32m[1mLinking CXX executable bin/mrpt_pf_localization_composable[0m
+[12.094s] [ 42%] Built target mrpt_pf_localization_composable
+[14.745s] [ 50%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[14.949s] [ 50%] Built target gtest
+[23.993s] [ 57%] [32m[1mLinking CXX shared library lib/libmrpt_pf_localization_core.so[0m
+[24.793s] [ 57%] Built target mrpt_pf_localization_core
+[24.826s] [ 64%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization-test.dir/test/test_pf_localization.cpp.o[0m
+[24.828s] [ 71%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_component.dir/src/mrpt_pf_localization_component.cpp.o[0m
+[24.834s] [ 78%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_node.dir/src/main.cpp.o[0m
+[35.694s] In file included from [01m[K/opt/ros/humble/include/mrpt/core/include/mrpt/core/exceptions.h:14[m[K,
+[35.694s]                  from [01m[K/opt/ros/humble/include/mrpt/math/include/mrpt/math/TPoseOrPoint.h:11[m[K,
+[35.694s]                  from [01m[K/opt/ros/humble/include/mrpt/math/include/mrpt/math/TTwist3D.h:11[m[K,
+[35.694s]                  from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/include/mrpt_pf_localization_node.h:11[m[K,
+[35.695s]                  from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:9[m[K,
+[35.695s]                  from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/main.cpp:10[m[K:
+[35.695s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid PFLocalizationNode::loop()[m[K’:
+[35.695s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:292:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: pub quality metrics[m[K’
+[35.695s]   292 |         [01;36m[KMRPT_TODO[m[K("pub quality metrics");
+[35.695s]       |         [01;36m[K^~~~~~~~~[m[K
+[36.703s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid PFLocalizationNode::update_tf_pub_data()[m[K’:
+[36.703s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:623:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Use param: no_update_tolerance[m[K’
+[36.704s]   623 |         [01;36m[KMRPT_TODO[m[K("Use param: no_update_tolerance");
+[36.704s]       |         [01;36m[K^~~~~~~~~[m[K
+[39.768s] In file included from [01m[K/opt/ros/humble/include/mrpt/core/include/mrpt/core/exceptions.h:14[m[K,
+[39.769s]                  from [01m[K/opt/ros/humble/include/mrpt/math/include/mrpt/math/TPoseOrPoint.h:11[m[K,
+[39.769s]                  from [01m[K/opt/ros/humble/include/mrpt/math/include/mrpt/math/TTwist3D.h:11[m[K,
+[39.769s]                  from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/include/mrpt_pf_localization_node.h:11[m[K,
+[39.769s]                  from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:9[m[K:
+[39.769s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid PFLocalizationNode::loop()[m[K’:
+[39.770s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:292:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: pub quality metrics[m[K’
+[39.770s]   292 |         [01;36m[KMRPT_TODO[m[K("pub quality metrics");
+[39.770s]       |         [01;36m[K^~~~~~~~~[m[K
+[39.811s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:[m[K In member function ‘[01m[Kvoid PFLocalizationNode::update_tf_pub_data()[m[K’:
+[39.811s] [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/src/mrpt_pf_localization_component.cpp:623:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Use param: no_update_tolerance[m[K’
+[39.811s]   623 |         [01;36m[KMRPT_TODO[m[K("Use param: no_update_tolerance");
+[39.811s]       |         [01;36m[K^~~~~~~~~[m[K
+[41.366s] [ 85%] [32m[1mLinking CXX executable bin/mrpt_pf_localization-test[0m
+[44.157s] [ 85%] Built target mrpt_pf_localization-test
+[78.169s] [ 92%] [32m[1mLinking CXX executable bin/mrpt_pf_localization_node[0m
+[81.190s] [100%] [32m[1mLinking CXX shared library lib/libmrpt_pf_localization_component.so[0m
+[83.331s] [100%] Built target mrpt_pf_localization_node
+[85.271s] [100%] Built target mrpt_pf_localization_component
+[85.302s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pf_localization' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pf_localization -- -j8 -l8
+[85.306s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pf_localization': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_pf_localization
+[85.319s] -- Install configuration: ""
+[85.320s] -- Execute custom install script
+[85.321s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_composable
+[85.347s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/launch/localization.launch.py
+[85.370s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default-relocalization-pipeline.yaml
+[85.387s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default.config.yaml
+[85.405s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/map-occgrid2d.ini
+[85.424s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/bin/mrpt_pf_localization-test
+[85.446s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/package_run_dependencies/mrpt_pf_localization
+[85.464s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/parent_prefix_path/mrpt_pf_localization
+[85.486s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.sh
+[85.502s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.dsv
+[85.522s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.sh
+[85.544s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.dsv
+[85.567s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.bash
+[85.583s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.sh
+[85.602s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.zsh
+[85.620s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.dsv
+[85.638s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.dsv
+[85.653s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/packages/mrpt_pf_localization
+[85.668s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/rclcpp_components/mrpt_pf_localization
+[85.684s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/ament_cmake_export_targets-extras.cmake
+[85.700s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig.cmake
+[85.726s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig-version.cmake
+[85.745s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.xml
+[85.767s] -- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so
+[85.833s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so" to ""
+[85.833s] -- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so
+[85.841s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so" to ""
+[85.841s] -- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node
+[85.864s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node" to ""
+[85.865s] -- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport.cmake
+[85.865s] -- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport-noconfig.cmake
+[85.869s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pf_localization' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_pf_localization

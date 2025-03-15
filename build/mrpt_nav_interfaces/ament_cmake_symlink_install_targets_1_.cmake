@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_generator_py/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "mrpt_nav_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mrpt_nav_interfaces")

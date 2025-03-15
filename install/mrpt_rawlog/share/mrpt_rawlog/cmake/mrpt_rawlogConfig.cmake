@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/build/mrpt_rawlog/ament_cmake_core/mrpt_rawlogConfig.cmake

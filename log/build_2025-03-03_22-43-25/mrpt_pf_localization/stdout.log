@@ -1,0 +1,37 @@
+[ 14%] Built target mrpt_pf_localization_composable
+[ 28%] Built target gtest_main
+[ 42%] Built target mrpt_pf_localization_core
+[ 57%] Built target gtest
+[ 71%] Built target mrpt_pf_localization_node
+[ 85%] Built target mrpt_pf_localization_component
+[100%] Built target mrpt_pf_localization-test
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_composable
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/launch/localization.launch.py
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default-relocalization-pipeline.yaml
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default.config.yaml
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/map-occgrid2d.ini
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/bin/mrpt_pf_localization-test
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/package_run_dependencies/mrpt_pf_localization
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/parent_prefix_path/mrpt_pf_localization
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.sh
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.dsv
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.bash
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.sh
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.zsh
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.dsv
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.dsv
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/packages/mrpt_pf_localization
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/rclcpp_components/mrpt_pf_localization
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig.cmake
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig-version.cmake
+-- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.xml
+-- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so
+-- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so
+-- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node
+-- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport.cmake
+-- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport-noconfig.cmake

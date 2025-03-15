@@ -1,0 +1,21 @@
+[2.859s] Invoking command in '/home/jozef/ros2_ws/build/tb2_bringup': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_bringup/build --no-deps symlink_data
+[3.847s] running develop
+[4.365s] running egg_info
+[4.365s] creating tb2_bringup.egg-info
+[4.408s] writing tb2_bringup.egg-info/PKG-INFO
+[4.410s] writing dependency_links to tb2_bringup.egg-info/dependency_links.txt
+[4.410s] writing requirements to tb2_bringup.egg-info/requires.txt
+[4.411s] writing top-level names to tb2_bringup.egg-info/top_level.txt
+[4.411s] writing manifest file 'tb2_bringup.egg-info/SOURCES.txt'
+[4.446s] reading manifest file 'tb2_bringup.egg-info/SOURCES.txt'
+[4.447s] writing manifest file 'tb2_bringup.egg-info/SOURCES.txt'
+[4.480s] running build_ext
+[4.513s] Creating /home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages/tb2-bringup.egg-link (link to .)
+[4.514s] 
+[4.514s] Installed /home/jozef/ros2_ws/build/tb2_bringup
+[4.516s] running symlink_data
+[4.516s] symbolically linking /home/jozef/ros2_ws/build/tb2_bringup/package.xml -> /home/jozef/ros2_ws/install/tb2_bringup/share/tb2_bringup
+[4.516s] creating /home/jozef/ros2_ws/install/tb2_bringup/share/tb2_bringup/launch
+[4.516s] symbolically linking /home/jozef/ros2_ws/build/tb2_bringup/launch/tb2_bringup_launch.py -> /home/jozef/ros2_ws/install/tb2_bringup/share/tb2_bringup/launch
+[4.517s] creating /home/jozef/ros2_ws/install/tb2_bringup/share/tb2_bringup/config
+[4.628s] Invoked command in '/home/jozef/ros2_ws/build/tb2_bringup' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_bringup/build --no-deps symlink_data

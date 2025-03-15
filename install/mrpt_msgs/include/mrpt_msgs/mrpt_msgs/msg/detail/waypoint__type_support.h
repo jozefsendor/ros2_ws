@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_generator_c/mrpt_msgs/msg/detail/waypoint__type_support.h

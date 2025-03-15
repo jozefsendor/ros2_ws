@@ -1,0 +1,196 @@
+[0.086s] Invoking command in '/home/jozef/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/message_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/message_filters
+[0.377s] -- The C compiler identification is GNU 11.4.0
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.695s] -- Detecting C compiler ABI info - done
+[0.711s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.713s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.900s] -- Detecting CXX compiler ABI info - done
+[0.911s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.913s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[0.919s] -- Found ament_cmake_python: 1.3.11 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.926s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.062s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.224s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.423s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.456s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.499s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.773s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.784s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.059s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.193s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.278s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.306s] -- Looking for pthread.h
+[3.560s] -- Looking for pthread.h - found
+[3.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.766s] -- Found Threads: TRUE  
+[4.100s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.113s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.180s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.454s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.679s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.740s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.740s] -- Configured cppcheck language: c++
+[9.740s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jozef/ros2_ws/src/message_filters/include>
+[9.740s] -- Configured cppcheck exclude dirs and/or files: 
+[9.804s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.810s] -- Configured cpplint exclude dirs and/or files: 
+[9.826s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.845s] -- Added test 'lint_cmake' to check CMake code style
+[9.863s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.936s] -- Added test 'uncrustify' to check C / C++ code style
+[9.936s] -- Configured uncrustify additional arguments: 
+[9.955s] -- Added test 'xmllint' to check XML markup files
+[10.015s] -- Configuring done
+[10.713s] -- Generating done
+[11.068s] -- Build files have been written to: /home/jozef/ros2_ws/build/message_filters
+[11.310s] Invoked command in '/home/jozef/ros2_ws/build/message_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/message_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/message_filters
+[11.311s] Invoking command in '/home/jozef/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/message_filters -- -j8 -l8
+[11.742s] [  2%] [32mBuilding CXX object CMakeFiles/message_filters.dir/src/connection.cpp.o[0m
+[11.748s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.804s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.835s] [  8%] Built target ament_cmake_python_symlink_message_filters
+[14.062s] running egg_info
+[14.066s] creating message_filters.egg-info
+[14.189s] writing message_filters.egg-info/PKG-INFO
+[14.202s] writing dependency_links to message_filters.egg-info/dependency_links.txt
+[14.203s] writing top-level names to message_filters.egg-info/top_level.txt
+[14.203s] writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[14.310s] [ 11%] [32m[1mLinking CXX shared library libmessage_filters.so[0m
+[14.534s] reading manifest file 'message_filters.egg-info/SOURCES.txt'
+[14.539s] writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[14.741s] [ 11%] Built target ament_cmake_python_build_message_filters_egg
+[15.108s] [ 11%] Built target message_filters
+[17.204s] [ 14%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.517s] [ 14%] Built target gtest_main
+[21.872s] [ 17%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.035s] [ 17%] Built target gtest
+[22.092s] [ 20%] [32mBuilding CXX object CMakeFiles/message_filters-msg_cache_unittest.dir/test/msg_cache_unittest.cpp.o[0m
+[22.093s] [ 23%] [32mBuilding CXX object CMakeFiles/message_filters-test_time_sequencer.dir/test/time_sequencer_unittest.cpp.o[0m
+[22.094s] [ 26%] [32mBuilding CXX object CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o[0m
+[22.095s] [ 29%] [32mBuilding CXX object CMakeFiles/message_filters-test_synchronizer.dir/test/test_synchronizer.cpp.o[0m
+[22.099s] [ 32%] [32mBuilding CXX object CMakeFiles/message_filters-test_chain.dir/test/test_chain.cpp.o[0m
+[22.109s] [ 35%] [32mBuilding CXX object CMakeFiles/message_filters-test_simple.dir/test/test_simple.cpp.o[0m
+[22.128s] [ 38%] [32mBuilding CXX object CMakeFiles/message_filters-time_synchronizer_unittest.dir/test/time_synchronizer_unittest.cpp.o[0m
+[22.137s] [ 41%] [32mBuilding CXX object CMakeFiles/message_filters-test_exact_time_policy.dir/test/test_exact_time_policy.cpp.o[0m
+[44.639s] [ 44%] [32m[1mLinking CXX executable message_filters-test_simple[0m
+[45.150s] [ 47%] [32m[1mLinking CXX executable message_filters-test_chain[0m
+[45.260s] [ 50%] [32m[1mLinking CXX executable message_filters-msg_cache_unittest[0m
+[46.088s] [ 52%] [32m[1mLinking CXX executable message_filters-test_exact_time_policy[0m
+[46.337s] [ 55%] [32m[1mLinking CXX executable message_filters-test_time_sequencer[0m
+[46.578s] [ 55%] Built target message_filters-test_simple
+[46.727s] [ 55%] Built target message_filters-test_chain
+[46.809s] [ 55%] Built target message_filters-msg_cache_unittest
+[47.189s] [ 55%] Built target message_filters-test_exact_time_policy
+[47.572s] [ 55%] Built target message_filters-test_time_sequencer
+[52.373s] [ 58%] [32m[1mLinking CXX executable message_filters-test_synchronizer[0m
+[53.641s] [ 58%] Built target message_filters-test_synchronizer
+[58.300s] [ 61%] [32m[1mLinking CXX executable message_filters-time_synchronizer_unittest[0m
+[59.243s] [ 61%] Built target message_filters-time_synchronizer_unittest
+[61.615s] [ 64%] [32m[1mLinking CXX executable message_filters-test_subscriber[0m
+[62.856s] [ 64%] Built target message_filters-test_subscriber
+[62.895s] [ 67%] [32mBuilding CXX object CMakeFiles/message_filters-test_input_aligner.dir/test/test_input_aligner.cpp.o[0m
+[71.475s] [ 70%] [32m[1mLinking CXX executable message_filters-test_input_aligner[0m
+[71.985s] [ 70%] Built target message_filters-test_input_aligner
+[72.026s] [ 73%] [32mBuilding CXX object CMakeFiles/message_filters-test_message_traits.dir/test/test_message_traits.cpp.o[0m
+[77.298s] [ 76%] [32m[1mLinking CXX executable message_filters-test_message_traits[0m
+[77.640s] [ 76%] Built target message_filters-test_message_traits
+[77.677s] [ 79%] [32mBuilding CXX object CMakeFiles/message_filters-test_latest_time_policy.dir/test/test_latest_time_policy.cpp.o[0m
+[77.689s] [ 82%] [32mBuilding CXX object CMakeFiles/message_filters-test_fuzz.dir/test/test_fuzz.cpp.o[0m
+[86.770s] [ 85%] [32m[1mLinking CXX executable message_filters-test_latest_time_policy[0m
+[87.276s] [ 85%] Built target message_filters-test_latest_time_policy
+[87.316s] [ 88%] [32mBuilding CXX object CMakeFiles/message_filters-test_approximate_time_policy.dir/test/test_approximate_time_policy.cpp.o[0m
+[87.326s] [ 91%] [32mBuilding CXX object CMakeFiles/message_filters-test_approximate_epsilon_time_policy.dir/test/test_approximate_epsilon_time_policy.cpp.o[0m
+[93.896s] [ 94%] [32m[1mLinking CXX executable message_filters-test_approximate_epsilon_time_policy[0m
+[94.234s] [ 97%] [32m[1mLinking CXX executable message_filters-test_fuzz[0m
+[94.296s] [ 97%] Built target message_filters-test_approximate_epsilon_time_policy
+[95.260s] [ 97%] Built target message_filters-test_fuzz
+[95.563s] [100%] [32m[1mLinking CXX executable message_filters-test_approximate_time_policy[0m
+[96.053s] [100%] Built target message_filters-test_approximate_time_policy
+[96.089s] Invoked command in '/home/jozef/ros2_ws/build/message_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/message_filters -- -j8 -l8
+[96.094s] Invoking command in '/home/jozef/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/message_filters
+[96.115s] -- Install configuration: ""
+[96.116s] -- Execute custom install script
+[96.118s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/cache.h
+[96.144s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/cache.hpp
+[96.163s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/chain.h
+[96.179s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/chain.hpp
+[96.195s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/connection.h
+[96.210s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/connection.hpp
+[96.231s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/input_aligner.hpp
+[96.254s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/message_event.h
+[96.269s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/message_event.hpp
+[96.284s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/message_traits.h
+[96.298s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/message_traits.hpp
+[96.322s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/null_types.h
+[96.337s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/null_types.hpp
+[96.353s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/parameter_adapter.h
+[96.369s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/parameter_adapter.hpp
+[96.383s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/pass_through.h
+[96.397s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/pass_through.hpp
+[96.414s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/signal1.h
+[96.439s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/signal1.hpp
+[96.454s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/signal9.h
+[96.469s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/signal9.hpp
+[96.482s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/simple_filter.h
+[96.497s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/simple_filter.hpp
+[96.515s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/subscriber.h
+[96.528s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/subscriber.hpp
+[96.556s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_epsilon_time.h
+[96.569s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_epsilon_time.hpp
+[96.582s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_time.h
+[96.596s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_time.hpp
+[96.613s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/exact_time.h
+[96.628s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/exact_time.hpp
+[96.645s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/latest_time.h
+[96.659s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/sync_policies/latest_time.hpp
+[96.673s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/synchronizer.h
+[96.687s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/synchronizer.hpp
+[96.699s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/time_sequencer.h
+[96.717s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/time_sequencer.hpp
+[96.732s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/time_synchronizer.h
+[96.746s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/time_synchronizer.hpp
+[96.759s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/visibility_control.h
+[96.772s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/include/message_filters/message_filters/visibility_control.hpp
+[96.788s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/pythonpath.sh
+[96.801s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/pythonpath.dsv
+[96.817s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters-7.0.0-py3.10.egg-info/PKG-INFO
+[96.832s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters-7.0.0-py3.10.egg-info/SOURCES.txt
+[96.851s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters-7.0.0-py3.10.egg-info/dependency_links.txt
+[96.871s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters-7.0.0-py3.10.egg-info/top_level.txt
+[96.897s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters/__init__.py
+[96.914s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/library_path.sh
+[96.931s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/library_path.dsv
+[96.947s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/ament_index/resource_index/package_run_dependencies/message_filters
+[96.961s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/ament_index/resource_index/parent_prefix_path/message_filters
+[96.975s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/ament_prefix_path.sh
+[96.998s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/ament_prefix_path.dsv
+[97.018s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/path.sh
+[97.038s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/environment/path.dsv
+[97.069s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/local_setup.bash
+[97.088s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/local_setup.sh
+[97.106s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/local_setup.zsh
+[97.126s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/local_setup.dsv
+[97.145s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/package.dsv
+[97.162s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/ament_index/resource_index/packages/message_filters
+[97.178s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.198s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[97.217s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/ament_cmake_export_targets-extras.cmake
+[97.236s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.253s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/message_filtersConfig.cmake
+[97.269s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/message_filtersConfig-version.cmake
+[97.286s] -- Symlinking: /home/jozef/ros2_ws/install/message_filters/share/message_filters/package.xml
+[97.305s] -- Installing: /home/jozef/ros2_ws/install/message_filters/lib/libmessage_filters.so
+[97.306s] -- Set runtime path of "/home/jozef/ros2_ws/install/message_filters/lib/libmessage_filters.so" to ""
+[97.417s] Listing '/home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters'...
+[97.417s] Compiling '/home/jozef/ros2_ws/install/message_filters/local/lib/python3.10/dist-packages/message_filters/__init__.py'...
+[97.427s] -- Installing: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/message_filtersExport.cmake
+[97.427s] -- Installing: /home/jozef/ros2_ws/install/message_filters/share/message_filters/cmake/message_filtersExport-noconfig.cmake
+[97.434s] Invoked command in '/home/jozef/ros2_ws/build/message_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/message_filters

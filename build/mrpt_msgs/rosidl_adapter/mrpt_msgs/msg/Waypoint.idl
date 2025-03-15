@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrpt_msgs/msg-common/Waypoint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module mrpt_msgs {
+  module msg {
+    struct Waypoint {
+      @verbatim (language="comment", text=
+        "target pose in map frame. Heading may be ignored")
+      geometry_msgs::msg::Pose target;
+
+      boolean ignore_heading;
+
+      boolean allow_skip;
+
+      @verbatim (language="comment", text=
+        "minimum distance (meters) to consider the target reached")
+      double allowed_distance;
+
+      @verbatim (language="comment", text=
+        "[0,1] relative speed at this target. 0=means use slow down" "\n"
+        "so the robot approaches the goal slowly:")
+      double speed_ratio;
+    };
+  };
+};

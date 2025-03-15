@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/build/mrpt_tutorials/ament_cmake_core/mrpt_tutorialsConfig.cmake

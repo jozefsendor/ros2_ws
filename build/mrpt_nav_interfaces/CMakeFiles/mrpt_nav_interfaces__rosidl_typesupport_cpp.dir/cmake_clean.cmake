@@ -1,0 +1,39 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_goal__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_goal__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_waypoints__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_waypoints__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/georeferencing_metadata__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/georeferencing_metadata__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_feedback__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_feedback__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_final_status__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_final_status__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_gridmap_layer__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_gridmap_layer__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_layers__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_layers__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_pointmap_layer__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_pointmap_layer__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_from_to__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_from_to__type_support.cpp.o.d"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_to__type_support.cpp.o"
+  "CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_to__type_support.cpp.o.d"
+  "libmrpt_nav_interfaces__rosidl_typesupport_cpp.pdb"
+  "libmrpt_nav_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_goal__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/action/navigate_waypoints__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/georeferencing_metadata__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_feedback__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/msg/navigation_final_status__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_gridmap_layer__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_layers__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/get_pointmap_layer__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_from_to__type_support.cpp"
+  "rosidl_typesupport_cpp/mrpt_nav_interfaces/srv/make_plan_to__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mrpt_nav_interfaces__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

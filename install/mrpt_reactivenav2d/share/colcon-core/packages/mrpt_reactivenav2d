@@ -1,0 +1,1 @@
+ament_cmake_lint_cmake:ament_cmake_xmllint:ament_lint_auto:geometry_msgs:mrpt_libnav:mrpt_libros_bridge:mrpt_nav_interfaces:nav_msgs:rclcpp:rclcpp_components:sensor_msgs:std_msgs:stereo_msgs:tf2:tf2_geometry_msgs:tf2_ros:visualization_msgs

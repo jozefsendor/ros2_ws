@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cc4fb4a6246ff894a637.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mrpt_msgs_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_msgs_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_msgs_bridge-b97427c3ae6a40dc5559.json",
+					"name" : "mrpt_msgs_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_msgs_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_msgs_bridge_uninstall-1450fec97c82cc64c665.json",
+					"name" : "mrpt_msgs_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15d72c329ef0cfd7f2eb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jozef/ros2_ws/build/mrpt_msgs_bridge",
+		"source" : "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_msgs_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

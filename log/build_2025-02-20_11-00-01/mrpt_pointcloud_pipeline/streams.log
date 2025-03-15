@@ -1,0 +1,33 @@
+[0.045s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline
+[0.435s] -- The C compiler identification is GNU 11.4.0
+[0.452s] -- The CXX compiler identification is GNU 11.4.0
+[0.473s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.653s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.654s] -- Detecting C compile features
+[0.655s] -- Detecting C compile features - done
+[0.667s] -- Detecting CXX compiler ABI info
+[0.847s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.865s] -- Detecting CXX compile features
+[0.865s] -- Detecting CXX compile features - done
+[0.904s] -- Configuring incomplete, errors occurred!
+[0.905s] See also "/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline/CMakeFiles/CMakeOutput.log".
+[0.905s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.905s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.905s]   has asked CMake to find a package configuration file provided by
+[0.905s]   "ament_cmake", but CMake did not find one.
+[0.907s] 
+[0.908s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.910s]   any of the following names:
+[0.912s] 
+[0.914s]     ament_cmakeConfig.cmake
+[0.915s]     ament_cmake-config.cmake
+[0.915s] 
+[0.915s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.915s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.915s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.915s]   has been installed.
+[0.915s] 
+[0.916s] [0m
+[0.930s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline' returned '1': /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline

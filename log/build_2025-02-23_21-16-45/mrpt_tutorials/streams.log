@@ -1,0 +1,41 @@
+[0.132s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[0.241s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[0.366s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials
+[1.997s] -- Install configuration: ""
+[1.997s] -- Execute custom install script
+[1.997s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/README.md
+[1.998s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/driving_in_office.rawlog
+[1.998s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/driving_in_office_obs.rawlog
+[1.998s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_astar_planner_gridmap.launch.py
+[1.999s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_composable_nodes.launch.py
+[1.999s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_localization_pf_mvsim_2d_lidar.launch.py
+[2.001s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_map_server_from_mm.launch.py
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_map_server_gridmap_from_yaml.launch.py
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_pointcloud_pipeline_mvsim.launch.py
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_reactive_nav_mvsim.launch.py
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_ro.launch
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/demo_world2.png
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/demo_world2.yaml
+[2.002s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/gh25_real_top_laser.simplemap
+[2.003s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/gh25_simulated.simplemap
+[2.005s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/lab7.yaml
+[2.005s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/mvsim/demo_world2.world.xml
+[2.005s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/params/mvsim_ros2_params.yaml
+[2.005s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/rviz2/gridmap.rviz
+[2.005s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/rviz2/rnav_demo.rviz
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/package_run_dependencies/mrpt_tutorials
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/parent_prefix_path/mrpt_tutorials
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/ament_prefix_path.sh
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/ament_prefix_path.dsv
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/path.sh
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/path.dsv
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.bash
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.sh
+[2.006s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.zsh
+[2.007s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.dsv
+[2.008s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.dsv
+[2.009s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/packages/mrpt_tutorials
+[2.010s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/cmake/mrpt_tutorialsConfig.cmake
+[2.011s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/cmake/mrpt_tutorialsConfig-version.cmake
+[2.011s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.xml
+[2.011s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials

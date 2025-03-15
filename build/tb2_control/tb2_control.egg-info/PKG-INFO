@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tb2-control
+Version: 0.0.0
+Summary: Control package for TurtleBot2
+Maintainer: jozef
+Maintainer-email: jozef.sendor20@gmail.com
+License: Apache-2.0

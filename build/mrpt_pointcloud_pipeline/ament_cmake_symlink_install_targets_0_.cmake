@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline/mrpt_pointcloud_pipeline_composable" "TARGETS" "mrpt_pointcloud_pipeline_composable" "DESTINATION" "lib/mrpt_pointcloud_pipeline")

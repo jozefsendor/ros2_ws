@@ -1,0 +1,8 @@
+# This service requests a given server node to:
+# - Use all current obstacles from all configured obstacle sources in the node configuration,
+# - Make a plan to go from the given robot pose to the requested pose in this service request.
+
+# Start pose
+geometry_msgs/Pose start
+# Goal pose
+geometry_msgs/Pose target

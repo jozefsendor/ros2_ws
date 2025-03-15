@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrpt_msgs/msg-common/GenericObject.msg
+// generated code does not contain a copyright notice
+
+
+module mrpt_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message holds an mrpt::serialization::CObject polymorphic object" "\n"
+      "serialized into a binary stream via mrpt::serialization methods.")
+    struct GenericObject {
+      @verbatim (language="comment", text=
+        "Object data")
+      sequence<uint8> data;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/lib/mrpt_msgs_bridge/libmrpt_msgs_bridge.a
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/package_run_dependencies/mrpt_msgs_bridge
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/parent_prefix_path/mrpt_msgs_bridge
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/ament_prefix_path.sh
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/ament_prefix_path.dsv
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/path.sh
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/path.dsv
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.bash
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.sh
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.zsh
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.dsv
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/package.dsv
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/packages/mrpt_msgs_bridge
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/ament_cmake_export_targets-extras.cmake
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeConfig.cmake
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeConfig-version.cmake
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/package.xml

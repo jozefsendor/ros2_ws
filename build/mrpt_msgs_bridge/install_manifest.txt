@@ -1,0 +1,7 @@
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/marker_msgs.hpp
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/beacon.hpp
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/landmark.hpp
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/network_of_poses.hpp
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/lib/libmrpt_msgs_bridge.a
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeExport.cmake
+/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeExport-noconfig.cmake

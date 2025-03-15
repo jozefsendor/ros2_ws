@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff00989d5dfa2bed35e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mrpt_nav_interfaces__py",
+					"jsonFile" : "directory-mrpt_nav_interfaces__py-d38d623be43af4ba58ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jozef/ros2_ws/build/mrpt_nav_interfaces/mrpt_nav_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mrpt_nav_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mrpt_nav_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mrpt_nav_interfaces_egg-88b7f8c5ca0037995b7b.json",
+					"name" : "ament_cmake_python_build_mrpt_nav_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mrpt_nav_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mrpt_nav_interfaces-7f019af8c11446bcd8a9.json",
+					"name" : "ament_cmake_python_symlink_mrpt_nav_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces-622cc740a6584843223c.json",
+					"name" : "mrpt_nav_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__cpp-6f55526ea8a9c812982d.json",
+					"name" : "mrpt_nav_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mrpt_nav_interfaces__py::@d9b7c97cb836fa5d16d7",
+					"jsonFile" : "target-mrpt_nav_interfaces__py-5b854b14bcde231f473f.json",
+					"name" : "mrpt_nav_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_generator_c-9dfcc92097fa988b0aea.json",
+					"name" : "mrpt_nav_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_generator_py-da47329fbeb86b366bd3.json",
+					"name" : "mrpt_nav_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_c-d8f8cf258979934f30d7.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_c__pyext-a96140bcefc35bd5beb7.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_cpp-3fc25ed828afe25a09b8.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c-81400f2a1f773675aaa7.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext-78b22448083fe37d220d.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cpp-d91b68c4161bad7a3ad8.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_introspection_c-a904314aa70f72510b8f.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_introspection_c__pyext-f8a765cf70aaa2fd8a41.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces__rosidl_typesupport_introspection_cpp-b8368d154261788031bc.json",
+					"name" : "mrpt_nav_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_nav_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_nav_interfaces_uninstall-dd9334f0de6f31f46ed5.json",
+					"name" : "mrpt_nav_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d486ebbdd18669a78e54.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jozef/ros2_ws/build/mrpt_nav_interfaces",
+		"source" : "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

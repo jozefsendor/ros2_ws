@@ -1,0 +1,10 @@
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:action/NavigateGoal.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:action/NavigateWaypoints.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:msg/GeoreferencingMetadata.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:msg/NavigationFeedback.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:msg/NavigationFinalStatus.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:srv/GetLayers.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:srv/GetGridmapLayer.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:srv/GetPointmapLayer.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:srv/MakePlanFromTo.idl
+/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_adapter/mrpt_nav_interfaces:srv/MakePlanTo.idl

@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization/launch/localization.launch.py

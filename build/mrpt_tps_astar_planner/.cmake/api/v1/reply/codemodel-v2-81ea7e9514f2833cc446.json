@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-76e22b203ec43ef0eb10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mrpt_tps_astar_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_tps_astar_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_tps_astar_planner_node-d61fd4a351dfa94c0812.json",
+					"name" : "mrpt_tps_astar_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrpt_tps_astar_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrpt_tps_astar_planner_uninstall-9a345699769096f6054f.json",
+					"name" : "mrpt_tps_astar_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-03b214bb94aedc56ade5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jozef/ros2_ws/build/mrpt_tps_astar_planner",
+		"source" : "/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tps_astar_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

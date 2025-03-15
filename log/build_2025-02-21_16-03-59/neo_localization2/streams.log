@@ -1,0 +1,38 @@
+[0.144s] Invoking command in '/home/jozef/ros2_ws/build/neo_localization2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/neo_localization2 -- -j8 -l8
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target neo_localization_node[0m
+[0.691s] [ 50%] [32mBuilding CXX object CMakeFiles/neo_localization_node.dir/src/neo_localization_node.cpp.o[0m
+[29.933s] [100%] [32m[1mLinking CXX executable neo_localization_node[0m
+[30.417s] [100%] Built target neo_localization_node
+[30.440s] Invoked command in '/home/jozef/ros2_ws/build/neo_localization2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/neo_localization2 -- -j8 -l8
+[30.443s] Invoking command in '/home/jozef/ros2_ws/build/neo_localization2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/neo_localization2
+[30.453s] -- Install configuration: "Release"
+[30.455s] -- Execute custom install script
+[30.455s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/library_path.sh
+[30.456s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/library_path.dsv
+[30.456s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/include//neo_localization/Convert.h
+[30.456s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/include//neo_localization/GridMap.h
+[30.457s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/include//neo_localization/Matrix.h
+[30.457s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/include//neo_localization/Solver.h
+[30.457s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/include//neo_localization/Util.h
+[30.458s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/lib/neo_localization2/neo_localization_node
+[30.459s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/launch/test_setup.launch.py
+[30.459s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/launch/test_setup.yaml
+[30.459s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/ament_index/resource_index/package_run_dependencies/neo_localization2
+[30.459s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/ament_index/resource_index/parent_prefix_path/neo_localization2
+[30.460s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/ament_prefix_path.sh
+[30.460s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/ament_prefix_path.dsv
+[30.460s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/path.sh
+[30.461s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/environment/path.dsv
+[30.461s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/local_setup.bash
+[30.461s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/local_setup.sh
+[30.461s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/local_setup.zsh
+[30.461s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/local_setup.dsv
+[30.461s] -- Symlinking: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/package.dsv
+[30.479s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/ament_index/resource_index/packages/neo_localization2
+[30.479s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.479s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/cmake/ament_cmake_export_libraries-extras.cmake
+[30.480s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.480s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/cmake/neo_localization2Config.cmake
+[30.480s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/cmake/neo_localization2Config-version.cmake
+[30.480s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/neo_localization2/share/neo_localization2/package.xml
+[30.484s] Invoked command in '/home/jozef/ros2_ws/build/neo_localization2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/neo_localization2

@@ -1,0 +1,16 @@
+[2.657s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/mocap4r2cli/build --no-deps symlink_data
+[3.325s] running develop
+[3.680s] running egg_info
+[3.704s] writing mocap4r2cli.egg-info/PKG-INFO
+[3.705s] writing dependency_links to mocap4r2cli.egg-info/dependency_links.txt
+[3.705s] writing entry points to mocap4r2cli.egg-info/entry_points.txt
+[3.705s] writing requirements to mocap4r2cli.egg-info/requires.txt
+[3.706s] writing top-level names to mocap4r2cli.egg-info/top_level.txt
+[3.757s] reading manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[3.759s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[3.785s] running build_ext
+[3.786s] Creating /home/jozef/ros2_ws/install/mocap4r2cli/lib/python3.10/site-packages/mocap4r2cli.egg-link (link to .)
+[3.787s] 
+[3.787s] Installed /home/jozef/ros2_ws/build/mocap4r2cli
+[3.787s] running symlink_data
+[3.874s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/mocap4r2cli/build --no-deps symlink_data

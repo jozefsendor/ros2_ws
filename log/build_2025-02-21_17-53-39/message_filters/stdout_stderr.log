@@ -1,0 +1,25 @@
+[  0%] Built target ament_cmake_python_symlink_message_filters
+[  5%] Built target message_filters
+[ 11%] Built target gtest_main
+[ 17%] Built target gtest
+[ 23%] Built target message_filters-msg_cache_unittest
+[ 29%] Built target message_filters-test_simple
+[ 35%] Built target message_filters-time_synchronizer_unittest
+[ 41%] Built target message_filters-test_synchronizer
+[ 47%] Built target message_filters-test_subscriber
+[ 52%] Built target message_filters-test_chain
+[ 58%] Built target message_filters-test_time_sequencer
+[ 64%] Built target message_filters-test_exact_time_policy
+[ 70%] Built target message_filters-test_approximate_time_policy
+[ 76%] Built target message_filters-test_approximate_epsilon_time_policy
+[ 82%] Built target message_filters-test_latest_time_policy
+[ 88%] Built target message_filters-test_message_traits
+[ 94%] Built target message_filters-test_fuzz
+[100%] Built target message_filters-test_input_aligner
+running egg_info
+writing message_filters.egg-info/PKG-INFO
+writing dependency_links to message_filters.egg-info/dependency_links.txt
+writing top-level names to message_filters.egg-info/top_level.txt
+reading manifest file 'message_filters.egg-info/SOURCES.txt'
+writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_message_filters_egg

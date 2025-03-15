@@ -1,0 +1,1 @@
+/home/jozef/ros2_ws/build/tb2_slam/ament_cmake_environment_hooks/local_setup.bash

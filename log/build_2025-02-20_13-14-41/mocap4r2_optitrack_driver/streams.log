@@ -1,0 +1,86 @@
+[0.038s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_optitrack_driver
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.652s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.653s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.327s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.573s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.694s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.710s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.733s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.922s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.931s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.148s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.209s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.317s] -- Looking for pthread.h
+[2.446s] -- Looking for pthread.h - found
+[2.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.591s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.593s] -- Found Threads: TRUE  
+[2.696s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.751s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.802s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.018s] -- Found mocap4r2_msgs: 0.0.3 (/home/jozef/ros2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[3.040s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/jozef/ros2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[3.062s] -- Found mocap4r2_control: 0.0.7 (/home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[3.102s] -- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[3.107s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.113s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.120s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[3.127s] -- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[3.134s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.145s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.270s] -- Configuring done
+[3.326s] -- Generating done
+[3.339s] -- Build files have been written to: /home/jozef/ros2_ws/build/mocap4r2_optitrack_driver
+[3.369s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_optitrack_driver
+[3.372s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_optitrack_driver -- -j8 -l8
+[3.468s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[12.494s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_optitrack_driver.a[0m
+[12.686s] [ 50%] Built target mocap4r2_optitrack_driver
+[12.730s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver_main.dir/src/mocap4r2_optitrack_driver_main.cpp.o[0m
+[18.230s] [100%] [32m[1mLinking CXX executable mocap4r2_optitrack_driver_main[0m
+[19.420s] [100%] Built target mocap4r2_optitrack_driver_main
+[19.448s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_optitrack_driver -- -j8 -l8
+[19.452s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_optitrack_driver
+[19.470s] -- Install configuration: ""
+[19.471s] -- Execute custom install script
+[19.473s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/include//mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.hpp
+[19.494s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/launch/optitrack2.launch.py
+[19.516s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml
+[19.538s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/lib/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver_main
+[19.561s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/lib/libmocap4r2_optitrack_driver.a
+[19.584s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.sh
+[19.605s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.dsv
+[19.626s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_optitrack_driver
+[19.648s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_optitrack_driver
+[19.671s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.sh
+[19.691s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.dsv
+[19.710s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.sh
+[19.730s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.dsv
+[19.751s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.bash
+[19.772s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.sh
+[19.792s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.zsh
+[19.812s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.dsv
+[19.831s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.dsv
+[19.853s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/packages/mocap4r2_optitrack_driver
+[19.876s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.895s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[19.914s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.933s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig.cmake
+[19.954s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig-version.cmake
+[19.974s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.xml
+[20.000s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control:/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/home/jozef/ros2_ws/install/tb2_slam:/home/jozef/ros2_ws/install/neo_localization2:/home/jozef/ros2_ws/install/mrpt_navigation:/home/jozef/ros2_ws/install/mrpt_tutorials:/home/jozef/ros2_ws/install/mrpt_tps_astar_planner:/home/jozef/ros2_ws/install/mrpt_reactivenav2d:/home/jozef/ros2_ws/install/mrpt_rawlog:/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline:/home/jozef/ros2_ws/install/mrpt_pf_localization:/home/jozef/ros2_ws/install/mrpt_map_server:/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs_bridge:/home/jozef/ros2_ws/install/mrpt_msgs:/home/jozef/ros2_ws/install/tb2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control/lib:/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_optitrack_driver

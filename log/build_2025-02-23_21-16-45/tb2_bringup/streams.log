@@ -1,0 +1,18 @@
+[3.814s] Invoking command in '/home/jozef/ros2_ws/build/tb2_bringup': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_bringup/build --no-deps symlink_data
+[5.211s] running develop
+[5.902s] running egg_info
+[5.943s] writing tb2_bringup.egg-info/PKG-INFO
+[5.944s] writing dependency_links to tb2_bringup.egg-info/dependency_links.txt
+[5.944s] writing entry points to tb2_bringup.egg-info/entry_points.txt
+[5.945s] writing requirements to tb2_bringup.egg-info/requires.txt
+[5.946s] writing top-level names to tb2_bringup.egg-info/top_level.txt
+[6.007s] reading manifest file 'tb2_bringup.egg-info/SOURCES.txt'
+[6.009s] writing manifest file 'tb2_bringup.egg-info/SOURCES.txt'
+[6.046s] running build_ext
+[6.046s] Creating /home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages/tb2-bringup.egg-link (link to .)
+[6.047s] Installing tb2_bringup_node script to /home/jozef/ros2_ws/install/tb2_bringup/lib/tb2_bringup
+[6.047s] 
+[6.047s] Installed /home/jozef/ros2_ws/build/tb2_bringup
+[6.048s] running symlink_data
+[6.048s] symbolically linking /home/jozef/ros2_ws/build/tb2_bringup/launch/tb2_test_algorithm.py -> /home/jozef/ros2_ws/install/tb2_bringup/share/tb2_bringup/launch
+[6.166s] Invoked command in '/home/jozef/ros2_ws/build/tb2_bringup' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_bringup/build --no-deps symlink_data

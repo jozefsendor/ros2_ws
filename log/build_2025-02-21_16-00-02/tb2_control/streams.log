@@ -1,0 +1,17 @@
+[3.018s] Invoking command in '/home/jozef/ros2_ws/build/tb2_control': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_control/build --no-deps symlink_data
+[3.884s] running develop
+[4.276s] running egg_info
+[4.302s] writing tb2_control.egg-info/PKG-INFO
+[4.302s] writing dependency_links to tb2_control.egg-info/dependency_links.txt
+[4.303s] writing entry points to tb2_control.egg-info/entry_points.txt
+[4.303s] writing requirements to tb2_control.egg-info/requires.txt
+[4.304s] writing top-level names to tb2_control.egg-info/top_level.txt
+[4.362s] reading manifest file 'tb2_control.egg-info/SOURCES.txt'
+[4.364s] writing manifest file 'tb2_control.egg-info/SOURCES.txt'
+[4.393s] running build_ext
+[4.394s] Creating /home/jozef/ros2_ws/install/tb2_control/lib/python3.10/site-packages/tb2-control.egg-link (link to .)
+[4.396s] Installing tb2_controller script to /home/jozef/ros2_ws/install/tb2_control/lib/tb2_control
+[4.397s] 
+[4.397s] Installed /home/jozef/ros2_ws/build/tb2_control
+[4.397s] running symlink_data
+[4.491s] Invoked command in '/home/jozef/ros2_ws/build/tb2_control' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/tb2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/tb2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/tb2_control/build --no-deps symlink_data

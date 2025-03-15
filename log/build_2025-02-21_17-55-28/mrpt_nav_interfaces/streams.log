@@ -1,0 +1,287 @@
+[0.556s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_nav_interfaces': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_nav_interfaces -- -j8 -l8
+[0.846s] [  0%] Built target mrpt_nav_interfaces__cpp
+[0.865s] [  0%] Built target ament_cmake_python_symlink_mrpt_nav_interfaces
+[0.884s] [ 12%] Built target mrpt_nav_interfaces__rosidl_generator_c
+[0.998s] [ 23%] Built target mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.018s] [ 35%] Built target mrpt_nav_interfaces__rosidl_typesupport_introspection_cpp
+[1.018s] [ 47%] Built target mrpt_nav_interfaces__rosidl_typesupport_cpp
+[1.025s] [ 59%] Built target mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c
+[1.059s] [ 71%] Built target mrpt_nav_interfaces__rosidl_typesupport_introspection_c
+[1.073s] [ 82%] Built target mrpt_nav_interfaces__rosidl_typesupport_c
+[1.188s] [ 82%] Built target mrpt_nav_interfaces
+[1.271s] [ 83%] Built target mrpt_nav_interfaces__py
+[1.354s] [ 94%] Built target mrpt_nav_interfaces__rosidl_generator_py
+[1.438s] [ 96%] Built target mrpt_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.447s] [ 98%] Built target mrpt_nav_interfaces__rosidl_typesupport_c__pyext
+[1.453s] [100%] Built target mrpt_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.667s] running egg_info
+[1.722s] writing mrpt_nav_interfaces.egg-info/PKG-INFO
+[1.724s] writing dependency_links to mrpt_nav_interfaces.egg-info/dependency_links.txt
+[1.729s] writing top-level names to mrpt_nav_interfaces.egg-info/top_level.txt
+[1.891s] reading manifest file 'mrpt_nav_interfaces.egg-info/SOURCES.txt'
+[1.899s] writing manifest file 'mrpt_nav_interfaces.egg-info/SOURCES.txt'
+[2.015s] [100%] Built target ament_cmake_python_build_mrpt_nav_interfaces_egg
+[2.343s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_nav_interfaces' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_nav_interfaces -- -j8 -l8
+[2.345s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_nav_interfaces': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_nav_interfaces
+[2.480s] -- Install configuration: ""
+[2.480s] -- Execute custom install script
+[2.486s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/mrpt_nav_interfaces
+[2.486s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__functions.h
+[2.486s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__struct.h
+[2.486s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__type_support.h
+[2.486s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__functions.h
+[2.490s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__struct.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__type_support.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/navigate_goal.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/navigate_waypoints.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__functions.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__struct.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__type_support.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__functions.h
+[2.491s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__struct.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__type_support.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__functions.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__struct.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__type_support.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/georeferencing_metadata.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/navigation_feedback.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/navigation_final_status.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__functions.h
+[2.492s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__struct.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__type_support.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__functions.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__struct.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__type_support.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__functions.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__struct.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__type_support.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__functions.h
+[2.493s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__struct.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__type_support.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__functions.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__struct.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__type_support.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_gridmap_layer.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_layers.h
+[2.494s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_pointmap_layer.h
+[2.507s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/make_plan_from_to.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/make_plan_to.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/library_path.sh
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/library_path.dsv
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__rosidl_typesupport_fastrtps_c.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__rosidl_typesupport_fastrtps_c.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__rosidl_typesupport_fastrtps_c.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__rosidl_typesupport_fastrtps_c.h
+[2.508s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__rosidl_typesupport_fastrtps_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__rosidl_typesupport_introspection_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__rosidl_typesupport_introspection_c.h
+[2.509s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__rosidl_typesupport_introspection_c.h
+[2.510s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__builder.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__struct.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__traits.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__type_support.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__builder.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__struct.hpp
+[2.511s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__traits.hpp
+[2.520s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__type_support.hpp
+[2.526s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/navigate_goal.hpp
+[2.526s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/navigate_waypoints.hpp
+[2.526s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__builder.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__struct.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__traits.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__type_support.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__builder.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__struct.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__traits.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__type_support.hpp
+[2.527s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__builder.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__struct.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__traits.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__type_support.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/georeferencing_metadata.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/navigation_feedback.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/navigation_final_status.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__builder.hpp
+[2.528s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__struct.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__traits.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__type_support.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__builder.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__struct.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__traits.hpp
+[2.529s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__type_support.hpp
+[2.537s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__builder.hpp
+[2.546s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__struct.hpp
+[2.546s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__traits.hpp
+[2.547s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__type_support.hpp
+[2.547s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__builder.hpp
+[2.550s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__struct.hpp
+[2.551s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__traits.hpp
+[2.551s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__type_support.hpp
+[2.551s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__builder.hpp
+[2.551s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__struct.hpp
+[2.551s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__traits.hpp
+[2.552s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__type_support.hpp
+[2.552s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_gridmap_layer.hpp
+[2.552s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_layers.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/get_pointmap_layer.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/make_plan_from_to.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/make_plan_to.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.561s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__rosidl_typesupport_fastrtps_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_goal__rosidl_typesupport_introspection_cpp.hpp
+[2.562s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/action/detail/navigate_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_feedback__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/msg/detail/navigation_final_status__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_gridmap_layer__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_layers__rosidl_typesupport_introspection_cpp.hpp
+[2.563s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/get_pointmap_layer__rosidl_typesupport_introspection_cpp.hpp
+[2.564s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_from_to__rosidl_typesupport_introspection_cpp.hpp
+[2.565s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/include/mrpt_nav_interfaces/mrpt_nav_interfaces/srv/detail/make_plan_to__rosidl_typesupport_introspection_cpp.hpp
+[2.569s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/pythonpath.sh
+[2.569s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/pythonpath.dsv
+[2.569s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces-2.2.1-py3.10.egg-info/PKG-INFO
+[2.570s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces-2.2.1-py3.10.egg-info/SOURCES.txt
+[2.570s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces-2.2.1-py3.10.egg-info/dependency_links.txt
+[2.570s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces-2.2.1-py3.10.egg-info/top_level.txt
+[2.570s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/__init__.py
+[2.570s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/_mrpt_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[2.584s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/_mrpt_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/_mrpt_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action/__init__.py
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action/_navigate_goal.py
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action/_navigate_goal_s.c
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action/_navigate_waypoints.py
+[2.585s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action/_navigate_waypoints_s.c
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/libmrpt_nav_interfaces__rosidl_generator_py.so
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/__init__.py
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_georeferencing_metadata.py
+[2.586s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_georeferencing_metadata_s.c
+[2.588s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_navigation_feedback.py
+[2.593s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_navigation_feedback_s.c
+[2.593s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_navigation_final_status.py
+[2.594s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg/_navigation_final_status_s.c
+[2.597s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/__init__.py
+[2.598s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_gridmap_layer.py
+[2.598s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_gridmap_layer_s.c
+[2.598s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_layers.py
+[2.598s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_layers_s.c
+[2.601s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_pointmap_layer.py
+[2.601s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_get_pointmap_layer_s.c
+[2.605s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_make_plan_from_to.py
+[2.614s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_make_plan_from_to_s.c
+[2.614s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_make_plan_to.py
+[2.614s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv/_make_plan_to_s.c
+[2.617s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.617s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.617s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/mrpt_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.617s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/action/NavigateGoal.idl
+[2.618s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/action/NavigateWaypoints.idl
+[2.618s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/GeoreferencingMetadata.idl
+[2.618s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/NavigationFeedback.idl
+[2.618s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/NavigationFinalStatus.idl
+[2.623s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetLayers.idl
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetGridmapLayer.idl
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetPointmapLayer.idl
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanFromTo.idl
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanTo.idl
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/action/NavigateGoal.action
+[2.624s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/action/NavigateWaypoints.action
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/GeoreferencingMetadata.msg
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/NavigationFeedback.msg
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/msg/NavigationFinalStatus.msg
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetLayers.srv
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetLayers_Request.msg
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetLayers_Response.msg
+[2.625s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetGridmapLayer.srv
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetGridmapLayer_Request.msg
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetGridmapLayer_Response.msg
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetPointmapLayer.srv
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetPointmapLayer_Request.msg
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/GetPointmapLayer_Response.msg
+[2.626s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanFromTo.srv
+[2.634s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanFromTo_Request.msg
+[2.635s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanFromTo_Response.msg
+[2.635s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanTo.srv
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanTo_Request.msg
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/srv/MakePlanTo_Response.msg
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/mrpt_nav_interfaces
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/mrpt_nav_interfaces
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/ament_prefix_path.sh
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/ament_prefix_path.dsv
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/path.sh
+[2.636s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/environment/path.dsv
+[2.637s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/local_setup.bash
+[2.637s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/local_setup.sh
+[2.637s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/local_setup.zsh
+[2.640s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/local_setup.dsv
+[2.640s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/package.dsv
+[2.645s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/ament_index/resource_index/packages/mrpt_nav_interfaces
+[2.646s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.646s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.649s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.649s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.649s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.650s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.650s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.650s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfacesConfig.cmake
+[2.650s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfacesConfig-version.cmake
+[2.650s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/package.xml
+[2.650s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_generator_c.so
+[2.650s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.652s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_introspection_c.so
+[2.652s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_c.so
+[2.653s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.653s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.653s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_typesupport_cpp.so
+[2.707s] Listing '/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces'...
+[2.707s] Listing '/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/action'...
+[2.707s] Listing '/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/msg'...
+[2.708s] Listing '/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages/mrpt_nav_interfaces/srv'...
+[2.747s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib/libmrpt_nav_interfaces__rosidl_generator_py.so
+[2.747s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_generator_cExport.cmake
+[2.748s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.748s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.748s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.752s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.752s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.754s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_cExport.cmake
+[2.755s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.759s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_generator_cppExport.cmake
+[2.759s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.760s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.760s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.760s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_cppExport.cmake
+[2.760s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/mrpt_nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.761s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_generator_pyExport.cmake
+[2.761s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake/export_mrpt_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.823s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_nav_interfaces' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_nav_interfaces

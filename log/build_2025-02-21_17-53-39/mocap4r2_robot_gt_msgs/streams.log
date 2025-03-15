@@ -1,0 +1,23 @@
+[0.057s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs': /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs -- -j8 -l8
+[0.239s] [  3%] Built target mocap4r2_robot_gt_msgs__cpp
+[0.247s] [  3%] Built target ament_cmake_python_symlink_mocap4r2_robot_gt_msgs
+[0.248s] [ 12%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_c
+[0.401s] [ 22%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c
+[0.412s] [ 32%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp
+[0.426s] [ 41%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp
+[0.435s] [ 51%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp
+[0.442s] [ 61%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_c
+[0.443s] [ 70%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c
+[0.493s] [ 70%] Built target mocap4r2_robot_gt_msgs
+[0.619s] [ 74%] Built target mocap4r2_robot_gt_msgs__py
+[0.715s] [ 80%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_py
+[0.828s] [ 87%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.846s] [ 93%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c__pyext
+[0.865s] [100%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_c__pyext
+[1.175s] running egg_info
+[1.205s] writing mocap4r2_robot_gt_msgs.egg-info/PKG-INFO
+[1.205s] writing dependency_links to mocap4r2_robot_gt_msgs.egg-info/dependency_links.txt
+[1.206s] writing top-level names to mocap4r2_robot_gt_msgs.egg-info/top_level.txt
+[1.304s] reading manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[1.307s] writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[1.382s] [100%] Built target ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg

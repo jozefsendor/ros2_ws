@@ -1,0 +1,32 @@
+[0.172s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs_bridge': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_msgs_bridge -- -j8 -l8
+[0.501s] [100%] Built target mrpt_msgs_bridge
+[0.622s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs_bridge' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_msgs_bridge -- -j8 -l8
+[0.630s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs_bridge': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_msgs_bridge
+[0.728s] -- Install configuration: ""
+[0.728s] -- Execute custom install script
+[0.728s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/lib/mrpt_msgs_bridge/libmrpt_msgs_bridge.a
+[0.729s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/package_run_dependencies/mrpt_msgs_bridge
+[0.729s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/parent_prefix_path/mrpt_msgs_bridge
+[0.729s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/ament_prefix_path.sh
+[0.730s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/ament_prefix_path.dsv
+[0.730s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/path.sh
+[0.730s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/environment/path.dsv
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.bash
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.sh
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.zsh
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/local_setup.dsv
+[0.731s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/package.dsv
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/ament_index/resource_index/packages/mrpt_msgs_bridge
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[0.731s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeConfig.cmake
+[0.732s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeConfig-version.cmake
+[0.732s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/package.xml
+[0.740s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge
+[0.740s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/marker_msgs.hpp
+[0.740s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/beacon.hpp
+[0.740s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/landmark.hpp
+[0.740s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/include/mrpt_msgs_bridge/network_of_poses.hpp
+[0.741s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/lib/libmrpt_msgs_bridge.a
+[0.741s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeExport.cmake
+[0.741s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake/mrpt_msgs_bridgeExport-noconfig.cmake
+[0.790s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs_bridge' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jozef/ros2_ws/install/mrpt_msgs LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_msgs_bridge

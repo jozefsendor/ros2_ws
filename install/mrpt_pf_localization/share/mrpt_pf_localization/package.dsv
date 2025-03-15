@@ -1,0 +1,17 @@
+source;share/mrpt_pf_localization/hook/cmake_prefix_path.ps1
+source;share/mrpt_pf_localization/hook/cmake_prefix_path.dsv
+source;share/mrpt_pf_localization/hook/cmake_prefix_path.sh
+source;share/mrpt_pf_localization/hook/ld_library_path_lib.ps1
+source;share/mrpt_pf_localization/hook/ld_library_path_lib.dsv
+source;share/mrpt_pf_localization/hook/ld_library_path_lib.sh
+source;share/mrpt_pf_localization/hook/path.ps1
+source;share/mrpt_pf_localization/hook/path.dsv
+source;share/mrpt_pf_localization/hook/path.sh
+source;share/mrpt_pf_localization/hook/pythonscriptspath.ps1
+source;share/mrpt_pf_localization/hook/pythonscriptspath.dsv
+source;share/mrpt_pf_localization/hook/pythonscriptspath.sh
+source;share/mrpt_pf_localization/local_setup.bash
+source;share/mrpt_pf_localization/local_setup.dsv
+source;share/mrpt_pf_localization/local_setup.ps1
+source;share/mrpt_pf_localization/local_setup.sh
+source;share/mrpt_pf_localization/local_setup.zsh

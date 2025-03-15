@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found mrpt_msgs: 0.5.0 (/home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake)
+-- Found pose_cov_ops: 0.3.13 (/opt/ros/humble/share/pose_cov_ops/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found mrpt_msgs_bridge: 2.2.1 (/home/jozef/ros2_ws/install/mrpt_msgs_bridge/share/mrpt_msgs_bridge/cmake)
+-- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mola_common: 0.4.0 (/opt/ros/humble/share/mola_common/cmake)
+-- MRPT_VERSION: 2.14.7
+-- mola_relocalization_FOUND: 1
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jozef/ros2_ws/build/mrpt_pf_localization
+[  7%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_composable.dir/rclcpp_components/node_main_mrpt_pf_localization_composable.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_core.dir/src/mrpt_pf_localization/mrpt_pf_localization_core.cpp.o[0m
+[ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 28%] [32m[1mLinking CXX static library ../lib/libgtest_main.a[0m
+[ 28%] Built target gtest_main
+[ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 42%] [32m[1mLinking CXX executable bin/mrpt_pf_localization_composable[0m
+[ 42%] Built target mrpt_pf_localization_composable
+[ 50%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[ 50%] Built target gtest
+[ 57%] [32m[1mLinking CXX shared library lib/libmrpt_pf_localization_core.so[0m
+[ 57%] Built target mrpt_pf_localization_core
+[ 64%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization-test.dir/test/test_pf_localization.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_component.dir/src/mrpt_pf_localization_component.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/mrpt_pf_localization_node.dir/src/main.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable bin/mrpt_pf_localization-test[0m
+[ 85%] Built target mrpt_pf_localization-test
+[ 92%] [32m[1mLinking CXX executable bin/mrpt_pf_localization_node[0m
+[100%] [32m[1mLinking CXX shared library lib/libmrpt_pf_localization_component.so[0m
+[100%] Built target mrpt_pf_localization_node
+[100%] Built target mrpt_pf_localization_component
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_composable
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/launch/localization.launch.py
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default-relocalization-pipeline.yaml
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/default.config.yaml
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/params/map-occgrid2d.ini
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/bin/mrpt_pf_localization-test
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/package_run_dependencies/mrpt_pf_localization
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/parent_prefix_path/mrpt_pf_localization
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.sh
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/environment/path.dsv
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.bash
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.sh
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.zsh
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/local_setup.dsv
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.dsv
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/packages/mrpt_pf_localization
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/ament_index/resource_index/rclcpp_components/mrpt_pf_localization
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig.cmake
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/mrpt_pf_localizationConfig-version.cmake
+-- Symlinking: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/package.xml
+-- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so
+-- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so" to ""
+-- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so
+-- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so" to ""
+-- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node
+-- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node" to ""
+-- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport.cmake
+-- Installing: /home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport-noconfig.cmake

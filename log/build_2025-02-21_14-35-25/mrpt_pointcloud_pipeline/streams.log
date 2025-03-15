@@ -1,0 +1,30 @@
+[0.090s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline -- -j8 -l8
+[0.545s] [ 33%] Built target mrpt_pointcloud_pipeline_component
+[0.591s] [ 66%] Built target mrpt_pointcloud_pipeline_composable
+[0.662s] [100%] Built target mrpt_pointcloud_pipeline_node
+[0.749s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline -- -j8 -l8
+[0.765s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline
+[1.692s] -- Install configuration: ""
+[1.692s] -- Execute custom install script
+[1.692s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/lib/mrpt_pointcloud_pipeline/mrpt_pointcloud_pipeline_composable
+[1.692s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/launch/pointcloud_pipeline.launch.py
+[1.692s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/params/point-cloud-pipeline.yaml
+[1.692s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/ament_index/resource_index/package_run_dependencies/mrpt_pointcloud_pipeline
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/ament_index/resource_index/parent_prefix_path/mrpt_pointcloud_pipeline
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/environment/ament_prefix_path.sh
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/environment/ament_prefix_path.dsv
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/environment/path.sh
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/environment/path.dsv
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/local_setup.bash
+[1.693s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/local_setup.sh
+[1.694s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/local_setup.zsh
+[1.694s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/local_setup.dsv
+[1.694s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/package.dsv
+[1.694s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/ament_index/resource_index/packages/mrpt_pointcloud_pipeline
+[1.694s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/ament_index/resource_index/rclcpp_components/mrpt_pointcloud_pipeline
+[1.694s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/cmake/mrpt_pointcloud_pipelineConfig.cmake
+[1.698s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/cmake/mrpt_pointcloud_pipelineConfig-version.cmake
+[1.699s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/share/mrpt_pointcloud_pipeline/package.xml
+[1.699s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/lib/libmrpt_pointcloud_pipeline_component.so
+[1.699s] -- Up-to-date: /home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/lib/mrpt_pointcloud_pipeline/mrpt_pointcloud_pipeline_node
+[1.794s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline

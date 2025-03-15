@@ -1,0 +1,668 @@
+[0.060s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_msgs
+[0.606s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.939s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.185s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.214s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.432s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.498s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.531s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.494s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.497s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.500s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.507s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.826s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.831s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.886s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.886s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.886s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.886s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.931s] -- Found PythonExtra: .so  
+[4.100s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.105s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.124s] -- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[4.153s] -- Configuring done
+[4.294s] -- Generating done
+[4.323s] -- Build files have been written to: /home/jozef/ros2_ws/build/mrpt_msgs
+[4.346s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_msgs
+[4.349s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_msgs -- -j8 -l8
+[4.434s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.460s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.460s] [  0%] Built target ament_cmake_python_symlink_mrpt_msgs
+[4.974s] running egg_info
+[4.979s] creating mrpt_msgs.egg-info
+[5.022s] writing mrpt_msgs.egg-info/PKG-INFO
+[5.023s] writing dependency_links to mrpt_msgs.egg-info/dependency_links.txt
+[5.025s] writing top-level names to mrpt_msgs.egg-info/top_level.txt
+[5.025s] writing manifest file 'mrpt_msgs.egg-info/SOURCES.txt'
+[5.178s] reading manifest file 'mrpt_msgs.egg-info/SOURCES.txt'
+[5.180s] writing manifest file 'mrpt_msgs.egg-info/SOURCES.txt'
+[5.274s] [  0%] Built target ament_cmake_python_build_mrpt_msgs_egg
+[9.310s] [  0%] Built target mrpt_msgs__cpp
+[9.356s] [  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.357s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.372s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.966s] [  3%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/generic_observation__functions.c.o[0m
+[9.984s] [  3%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/graph_constraint__functions.c.o[0m
+[9.984s] [  4%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/graph_slam_stats__functions.c.o[0m
+[9.991s] [  5%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/graph_slam_agent__functions.c.o[0m
+[9.997s] [  5%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/observation_object__functions.c.o[0m
+[10.174s] [  6%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/observation_range_beacon__functions.c.o[0m
+[10.207s] [  6%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/observation_range_bearing__functions.c.o[0m
+[10.222s] [  7%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/waypoint_sequence__functions.c.o[0m
+[10.225s] [  7%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/generic_object__functions.c.o[0m
+[10.245s] [  8%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/graph_slam_agents__functions.c.o[0m
+[10.359s] [  9%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/network_of_poses__functions.c.o[0m
+[10.409s] [  9%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/node_id_with_laser_scan__functions.c.o[0m
+[10.444s] [ 10%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/node_id_with_pose__functions.c.o[0m
+[10.463s] [ 10%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/node_id_with_pose_vec__functions.c.o[0m
+[10.482s] [ 11%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/single_object_observation__functions.c.o[0m
+[10.518s] [ 11%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/single_range_beacon_observation__functions.c.o[0m
+[10.566s] [ 12%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/single_range_bearing_observation__functions.c.o[0m
+[10.625s] [ 13%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/msg/detail/waypoint__functions.c.o[0m
+[10.652s] [ 13%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mrpt_msgs/srv/detail/get_cm_graph__functions.c.o[0m
+[10.854s] [ 14%] [32m[1mLinking C shared library libmrpt_msgs__rosidl_generator_c.so[0m
+[11.049s] [ 14%] Built target mrpt_msgs__rosidl_generator_c
+[11.087s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.100s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.112s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.959s] [ 17%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/generic_observation__type_support.cpp.o[0m
+[13.968s] [ 18%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/graph_constraint__type_support.cpp.o[0m
+[13.978s] [ 19%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/graph_slam_agent__type_support.cpp.o[0m
+[14.847s] [ 19%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/graph_slam_stats__type_support.cpp.o[0m
+[14.945s] [ 20%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/observation_object__type_support.cpp.o[0m
+[15.028s] [ 20%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/observation_range_beacon__type_support.cpp.o[0m
+[15.769s] [ 21%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/observation_range_bearing__type_support.cpp.o[0m
+[15.797s] [ 21%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/waypoint_sequence__type_support.cpp.o[0m
+[15.858s] [ 22%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/generic_observation__type_support.cpp.o[0m
+[15.860s] [ 23%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/generic_object__type_support.cpp.o[0m
+[16.205s] [ 24%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/generic_observation__type_support.cpp.o[0m
+[16.448s] [ 25%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/graph_slam_agents__type_support.cpp.o[0m
+[16.613s] [ 25%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/generic_observation__type_support.cpp.o[0m
+[16.783s] [ 26%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/graph_constraint__type_support.cpp.o[0m
+[16.840s] [ 26%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/graph_slam_agent__type_support.cpp.o[0m
+[16.934s] [ 26%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/graph_constraint__type_support.cpp.o[0m
+[16.942s] [ 27%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/graph_slam_stats__type_support.cpp.o[0m
+[16.947s] [ 27%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/graph_constraint__type_support.cpp.o[0m
+[17.065s] [ 28%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/observation_object__type_support.cpp.o[0m
+[17.155s] [ 28%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/observation_range_beacon__type_support.cpp.o[0m
+[17.264s] [ 29%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/observation_range_bearing__type_support.cpp.o[0m
+[17.267s] [ 29%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/network_of_poses__type_support.cpp.o[0m
+[17.316s] [ 30%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/node_id_with_laser_scan__type_support.cpp.o[0m
+[17.360s] [ 30%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/waypoint_sequence__type_support.cpp.o[0m
+[17.503s] [ 31%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/generic_object__type_support.cpp.o[0m
+[17.535s] [ 32%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/generic_observation__type_support.c.o[0m
+[17.604s] [ 32%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/graph_slam_agents__type_support.cpp.o[0m
+[17.636s] [ 32%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/node_id_with_pose__type_support.cpp.o[0m
+[17.677s] [ 33%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/network_of_poses__type_support.cpp.o[0m
+[17.747s] [ 33%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/graph_constraint__type_support.c.o[0m
+[17.808s] [ 34%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/node_id_with_laser_scan__type_support.cpp.o[0m
+[17.904s] [ 34%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/node_id_with_pose__type_support.cpp.o[0m
+[17.920s] [ 35%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/graph_slam_agent__type_support.c.o[0m
+[17.997s] [ 36%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/node_id_with_pose_vec__type_support.cpp.o[0m
+[18.085s] [ 37%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/graph_slam_agent__type_support.cpp.o[0m
+[18.099s] [ 37%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/single_object_observation__type_support.cpp.o[0m
+[18.102s] [ 37%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/graph_slam_stats__type_support.c.o[0m
+[18.110s] [ 38%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/observation_object__type_support.c.o[0m
+[18.187s] [ 38%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/generic_observation__type_support_c.cpp.o[0m
+[18.194s] [ 39%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/single_range_beacon_observation__type_support.cpp.o[0m
+[18.261s] [ 40%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/graph_slam_agent__type_support.cpp.o[0m
+[18.294s] [ 40%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/single_range_bearing_observation__type_support.cpp.o[0m
+[18.295s] [ 41%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/observation_range_beacon__type_support.c.o[0m
+[18.296s] [ 41%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/node_id_with_pose_vec__type_support.cpp.o[0m
+[18.318s] [ 41%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/graph_slam_stats__type_support.cpp.o[0m
+[18.415s] [ 42%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/msg/waypoint__type_support.cpp.o[0m
+[18.428s] [ 43%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/observation_range_bearing__type_support.c.o[0m
+[18.485s] [ 44%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/observation_object__type_support.cpp.o[0m
+[18.547s] [ 45%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mrpt_msgs/srv/get_cm_graph__type_support.cpp.o[0m
+[18.618s] [ 46%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/waypoint_sequence__type_support.c.o[0m
+[18.710s] [ 46%] [32m[1mLinking CXX shared library libmrpt_msgs__rosidl_typesupport_c.so[0m
+[18.804s] [ 46%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/generic_object__type_support.c.o[0m
+[18.941s] [ 46%] Built target mrpt_msgs__rosidl_typesupport_c
+[18.990s] [ 46%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/graph_slam_stats__type_support.cpp.o[0m
+[19.004s] [ 47%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/graph_slam_agents__type_support.c.o[0m
+[19.173s] [ 47%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/network_of_poses__type_support.c.o[0m
+[19.289s] [ 47%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/single_object_observation__type_support.cpp.o[0m
+[19.293s] [ 48%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/graph_constraint__type_support_c.cpp.o[0m
+[19.356s] [ 49%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/node_id_with_laser_scan__type_support.c.o[0m
+[19.515s] [ 50%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/node_id_with_pose_vec__type_support.c.o[0m
+[19.515s] [ 50%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/node_id_with_pose__type_support.c.o[0m
+[19.535s] [ 51%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/single_range_beacon_observation__type_support.cpp.o[0m
+[19.675s] [ 51%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/observation_range_beacon__type_support.cpp.o[0m
+[19.698s] [ 52%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/single_object_observation__type_support.c.o[0m
+[19.852s] [ 53%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/observation_object__type_support.cpp.o[0m
+[19.877s] [ 53%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/single_range_beacon_observation__type_support.c.o[0m
+[19.970s] [ 54%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/observation_range_beacon__type_support.cpp.o[0m
+[20.038s] [ 55%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/single_range_bearing_observation__type_support.c.o[0m
+[20.144s] [ 56%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/graph_slam_agent__type_support_c.cpp.o[0m
+[20.153s] [ 56%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/msg/detail/waypoint__type_support.c.o[0m
+[20.333s] [ 57%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mrpt_msgs/srv/detail/get_cm_graph__type_support.c.o[0m
+[20.351s] [ 57%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/observation_range_bearing__type_support.cpp.o[0m
+[20.418s] [ 58%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/single_range_bearing_observation__type_support.cpp.o[0m
+[20.559s] [ 59%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/waypoint_sequence__type_support.cpp.o[0m
+[20.571s] [ 59%] [32m[1mLinking C shared library libmrpt_msgs__rosidl_typesupport_introspection_c.so[0m
+[20.751s] [ 59%] Built target mrpt_msgs__rosidl_typesupport_introspection_c
+[20.797s] [ 59%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/msg/waypoint__type_support.cpp.o[0m
+[21.233s] [ 60%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/observation_range_bearing__type_support.cpp.o[0m
+[21.319s] [ 60%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/generic_object__type_support.cpp.o[0m
+[21.350s] [ 60%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/graph_slam_stats__type_support_c.cpp.o[0m
+[21.471s] [ 61%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/observation_object__type_support_c.cpp.o[0m
+[21.518s] [ 62%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/waypoint_sequence__type_support.cpp.o[0m
+[21.799s] [ 63%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrpt_msgs/srv/get_cm_graph__type_support.cpp.o[0m
+[21.847s] [ 64%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/graph_slam_agents__type_support.cpp.o[0m
+[21.985s] [ 64%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/network_of_poses__type_support.cpp.o[0m
+[22.512s] [ 64%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/generic_object__type_support.cpp.o[0m
+[22.584s] [ 64%] [32m[1mLinking CXX shared library libmrpt_msgs__rosidl_typesupport_cpp.so[0m
+[22.598s] [ 65%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/node_id_with_laser_scan__type_support.cpp.o[0m
+[22.727s] [ 65%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/observation_range_beacon__type_support_c.cpp.o[0m
+[22.802s] [ 65%] Built target mrpt_msgs__rosidl_typesupport_cpp
+[22.831s] [ 66%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/node_id_with_pose__type_support.cpp.o[0m
+[22.865s] [ 67%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/observation_range_bearing__type_support_c.cpp.o[0m
+[23.217s] [ 68%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/graph_slam_agents__type_support.cpp.o[0m
+[23.291s] [ 68%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/network_of_poses__type_support.cpp.o[0m
+[23.368s] [ 68%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/node_id_with_pose_vec__type_support.cpp.o[0m
+[23.740s] [ 69%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/single_object_observation__type_support.cpp.o[0m
+[23.915s] [ 69%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/single_range_beacon_observation__type_support.cpp.o[0m
+[23.985s] [ 70%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/node_id_with_laser_scan__type_support.cpp.o[0m
+[24.109s] [ 70%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/waypoint_sequence__type_support_c.cpp.o[0m
+[24.169s] [ 70%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/node_id_with_pose__type_support.cpp.o[0m
+[24.858s] [ 71%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/single_range_bearing_observation__type_support.cpp.o[0m
+[24.923s] [ 72%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/generic_object__type_support_c.cpp.o[0m
+[24.936s] [ 72%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/msg/detail/waypoint__type_support.cpp.o[0m
+[25.066s] [ 73%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrpt_msgs/srv/detail/get_cm_graph__type_support.cpp.o[0m
+[25.113s] [ 74%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/node_id_with_pose_vec__type_support.cpp.o[0m
+[25.135s] [ 75%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/graph_slam_agents__type_support_c.cpp.o[0m
+[25.302s] [ 75%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/network_of_poses__type_support_c.cpp.o[0m
+[25.435s] [ 76%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/single_object_observation__type_support.cpp.o[0m
+[25.946s] [ 77%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/node_id_with_laser_scan__type_support_c.cpp.o[0m
+[26.209s] [ 77%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/node_id_with_pose__type_support_c.cpp.o[0m
+[26.270s] [ 77%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/single_range_beacon_observation__type_support.cpp.o[0m
+[26.347s] [ 78%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/node_id_with_pose_vec__type_support_c.cpp.o[0m
+[26.354s] [ 79%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/single_range_bearing_observation__type_support.cpp.o[0m
+[26.357s] [ 80%] [32m[1mLinking CXX shared library libmrpt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[26.653s] [ 80%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[26.821s] [ 80%] Built target mrpt_msgs__rosidl_typesupport_introspection_cpp
+[26.869s] [ 81%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrpt_msgs/srv/detail/dds_fastrtps/get_cm_graph__type_support.cpp.o[0m
+[27.045s] [ 81%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/single_object_observation__type_support_c.cpp.o[0m
+[27.127s] [ 82%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/single_range_beacon_observation__type_support_c.cpp.o[0m
+[27.441s] [ 83%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/single_range_bearing_observation__type_support_c.cpp.o[0m
+[27.566s] [ 83%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/msg/detail/waypoint__type_support_c.cpp.o[0m
+[27.598s] [ 84%] [32mBuilding CXX object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mrpt_msgs/srv/detail/get_cm_graph__type_support_c.cpp.o[0m
+[28.460s] [ 84%] [32m[1mLinking CXX shared library libmrpt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.625s] [ 84%] [32m[1mLinking CXX shared library libmrpt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.771s] [ 84%] Built target mrpt_msgs__rosidl_typesupport_fastrtps_cpp
+[28.837s] [ 84%] Built target mrpt_msgs__rosidl_typesupport_fastrtps_c
+[28.876s] [ 84%] Built target mrpt_msgs
+[28.922s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.358s] [ 85%] Built target mrpt_msgs__py
+[34.404s] [ 86%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_graph_slam_stats_s.c.o[0m
+[34.404s] [ 86%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_generic_observation_s.c.o[0m
+[34.405s] [ 86%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_graph_slam_agent_s.c.o[0m
+[34.411s] [ 87%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_graph_constraint_s.c.o[0m
+[34.412s] [ 88%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_observation_object_s.c.o[0m
+[34.426s] [ 88%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_observation_range_beacon_s.c.o[0m
+[34.431s] [ 88%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_waypoint_sequence_s.c.o[0m
+[34.438s] [ 89%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_observation_range_bearing_s.c.o[0m
+[34.807s] [ 90%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_generic_object_s.c.o[0m
+[34.847s] [ 90%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_graph_slam_agents_s.c.o[0m
+[34.852s] [ 91%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_network_of_poses_s.c.o[0m
+[34.868s] [ 92%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_node_id_with_laser_scan_s.c.o[0m
+[34.875s] [ 92%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_node_id_with_pose_s.c.o[0m
+[34.886s] [ 93%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_node_id_with_pose_vec_s.c.o[0m
+[34.900s] [ 94%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_single_range_beacon_observation_s.c.o[0m
+[34.901s] [ 94%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_single_object_observation_s.c.o[0m
+[35.168s] [ 94%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_single_range_bearing_observation_s.c.o[0m
+[35.242s] [ 95%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/msg/_waypoint_s.c.o[0m
+[35.272s] [ 96%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mrpt_msgs/srv/_get_cm_graph_s.c.o[0m
+[35.536s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mrpt_msgs/libmrpt_msgs__rosidl_generator_py.so[0m
+[35.684s] [ 96%] Built target mrpt_msgs__rosidl_generator_py
+[35.730s] [ 97%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.735s] [ 98%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.747s] [ 99%] [32mBuilding C object CMakeFiles/mrpt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[36.098s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.116s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.116s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.261s] [100%] Built target mrpt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36.261s] [100%] Built target mrpt_msgs__rosidl_typesupport_introspection_c__pyext
+[36.264s] [100%] Built target mrpt_msgs__rosidl_typesupport_c__pyext
+[36.290s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_msgs -- -j8 -l8
+[36.292s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_msgs
+[36.305s] -- Install configuration: ""
+[36.306s] -- Execute custom install script
+[36.307s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/ament_index/resource_index/rosidl_interfaces/mrpt_msgs
+[36.328s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__functions.h
+[36.349s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__struct.h
+[36.369s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__type_support.h
+[36.387s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__functions.h
+[36.408s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__struct.h
+[36.429s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__type_support.h
+[36.455s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__functions.h
+[36.473s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__struct.h
+[36.490s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__type_support.h
+[36.506s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__functions.h
+[36.523s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__struct.h
+[36.544s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__type_support.h
+[36.566s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__functions.h
+[36.584s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__struct.h
+[36.602s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__type_support.h
+[36.619s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__functions.h
+[36.641s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__struct.h
+[36.661s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__type_support.h
+[36.680s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__functions.h
+[36.701s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__struct.h
+[36.722s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__type_support.h
+[36.750s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__functions.h
+[36.771s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__struct.h
+[36.793s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__type_support.h
+[36.813s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__functions.h
+[36.833s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__struct.h
+[36.862s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__type_support.h
+[36.884s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__functions.h
+[36.906s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__struct.h
+[36.928s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__type_support.h
+[36.952s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__functions.h
+[36.974s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__struct.h
+[37.004s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__type_support.h
+[37.026s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__functions.h
+[37.049s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__struct.h
+[37.070s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__type_support.h
+[37.092s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__functions.h
+[37.113s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__struct.h
+[37.136s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__type_support.h
+[37.168s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__functions.h
+[37.190s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__struct.h
+[37.212s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__type_support.h
+[37.238s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__functions.h
+[37.308s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__struct.h
+[37.330s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__type_support.h
+[37.353s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__functions.h
+[37.377s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__struct.h
+[37.403s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__type_support.h
+[37.425s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__functions.h
+[37.445s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__struct.h
+[37.462s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__type_support.h
+[37.479s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__functions.h
+[37.495s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__struct.h
+[37.510s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__type_support.h
+[37.525s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/generic_object.h
+[37.541s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/generic_observation.h
+[37.558s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_constraint.h
+[37.574s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_agent.h
+[37.591s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_agents.h
+[37.610s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_stats.h
+[37.629s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/network_of_poses.h
+[37.653s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_laser_scan.h
+[37.673s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_pose.h
+[37.692s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_pose_vec.h
+[37.711s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_object.h
+[37.731s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_range_beacon.h
+[37.752s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_range_bearing.h
+[37.772s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.793s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_object_observation.h
+[37.808s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_range_beacon_observation.h
+[37.823s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_range_bearing_observation.h
+[37.838s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/waypoint.h
+[37.857s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/waypoint_sequence.h
+[37.874s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__functions.h
+[37.892s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__struct.h
+[37.911s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__type_support.h
+[37.930s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/get_cm_graph.h
+[37.953s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/library_path.sh
+[37.970s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/library_path.dsv
+[37.989s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__rosidl_typesupport_fastrtps_c.h
+[38.010s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__rosidl_typesupport_fastrtps_c.h
+[38.024s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__rosidl_typesupport_fastrtps_c.h
+[38.041s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__rosidl_typesupport_fastrtps_c.h
+[38.058s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__rosidl_typesupport_fastrtps_c.h
+[38.076s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__rosidl_typesupport_fastrtps_c.h
+[38.096s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__rosidl_typesupport_fastrtps_c.h
+[38.111s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__rosidl_typesupport_fastrtps_c.h
+[38.126s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__rosidl_typesupport_fastrtps_c.h
+[38.146s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__rosidl_typesupport_fastrtps_c.h
+[38.166s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__rosidl_typesupport_fastrtps_c.h
+[38.186s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__rosidl_typesupport_fastrtps_c.h
+[38.218s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__rosidl_typesupport_fastrtps_c.h
+[38.237s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__rosidl_typesupport_fastrtps_c.h
+[38.259s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__rosidl_typesupport_fastrtps_c.h
+[38.279s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__rosidl_typesupport_fastrtps_c.h
+[38.299s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[38.320s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__rosidl_typesupport_fastrtps_c.h
+[38.339s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.360s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__rosidl_typesupport_fastrtps_c.h
+[38.381s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__rosidl_typesupport_introspection_c.h
+[38.402s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__rosidl_typesupport_introspection_c.h
+[38.423s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__rosidl_typesupport_introspection_c.h
+[38.442s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__rosidl_typesupport_introspection_c.h
+[38.463s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__rosidl_typesupport_introspection_c.h
+[38.482s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__rosidl_typesupport_introspection_c.h
+[38.500s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__rosidl_typesupport_introspection_c.h
+[38.522s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__rosidl_typesupport_introspection_c.h
+[38.541s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__rosidl_typesupport_introspection_c.h
+[38.566s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__rosidl_typesupport_introspection_c.h
+[38.587s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__rosidl_typesupport_introspection_c.h
+[38.608s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__rosidl_typesupport_introspection_c.h
+[38.628s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__rosidl_typesupport_introspection_c.h
+[38.652s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__rosidl_typesupport_introspection_c.h
+[38.669s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__rosidl_typesupport_introspection_c.h
+[38.688s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__rosidl_typesupport_introspection_c.h
+[38.707s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[38.729s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__rosidl_typesupport_introspection_c.h
+[38.750s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.770s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__rosidl_typesupport_introspection_c.h
+[38.791s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__builder.hpp
+[38.809s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__struct.hpp
+[38.828s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__traits.hpp
+[38.850s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__type_support.hpp
+[38.875s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__builder.hpp
+[38.893s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__struct.hpp
+[38.912s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__traits.hpp
+[38.932s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__type_support.hpp
+[38.952s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__builder.hpp
+[38.972s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__struct.hpp
+[38.991s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__traits.hpp
+[39.012s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__type_support.hpp
+[39.031s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__builder.hpp
+[39.052s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__struct.hpp
+[39.072s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__traits.hpp
+[39.092s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__type_support.hpp
+[39.111s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__builder.hpp
+[39.130s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__struct.hpp
+[39.155s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__traits.hpp
+[39.174s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__type_support.hpp
+[39.194s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__builder.hpp
+[39.215s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__struct.hpp
+[39.231s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__traits.hpp
+[39.252s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__type_support.hpp
+[39.273s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__builder.hpp
+[39.294s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__struct.hpp
+[39.311s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__traits.hpp
+[39.333s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__type_support.hpp
+[39.355s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__builder.hpp
+[39.375s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__struct.hpp
+[39.394s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__traits.hpp
+[39.414s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__type_support.hpp
+[39.433s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__builder.hpp
+[39.456s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__struct.hpp
+[39.477s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__traits.hpp
+[39.511s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__type_support.hpp
+[39.531s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__builder.hpp
+[39.553s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__struct.hpp
+[39.572s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__traits.hpp
+[39.592s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__type_support.hpp
+[39.610s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__builder.hpp
+[39.632s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__struct.hpp
+[39.651s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__traits.hpp
+[39.668s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__type_support.hpp
+[39.684s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__builder.hpp
+[39.699s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__struct.hpp
+[39.714s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__traits.hpp
+[39.731s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__type_support.hpp
+[39.750s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__builder.hpp
+[39.769s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__struct.hpp
+[39.785s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__traits.hpp
+[39.800s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__type_support.hpp
+[39.815s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__builder.hpp
+[39.830s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__struct.hpp
+[39.845s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__traits.hpp
+[39.865s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__type_support.hpp
+[39.885s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__builder.hpp
+[39.902s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__struct.hpp
+[39.917s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__traits.hpp
+[39.931s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__type_support.hpp
+[39.949s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__builder.hpp
+[39.966s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__struct.hpp
+[39.981s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__traits.hpp
+[39.996s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__type_support.hpp
+[40.011s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__builder.hpp
+[40.029s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__struct.hpp
+[40.049s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__traits.hpp
+[40.068s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__type_support.hpp
+[40.087s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__builder.hpp
+[40.105s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__struct.hpp
+[40.128s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__traits.hpp
+[40.142s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__type_support.hpp
+[40.162s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/generic_object.hpp
+[40.181s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/generic_observation.hpp
+[40.199s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_constraint.hpp
+[40.217s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_agent.hpp
+[40.236s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_agents.hpp
+[40.257s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/graph_slam_stats.hpp
+[40.276s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/network_of_poses.hpp
+[40.299s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_laser_scan.hpp
+[40.326s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_pose.hpp
+[40.355s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/node_id_with_pose_vec.hpp
+[40.370s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_object.hpp
+[40.385s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_range_beacon.hpp
+[40.402s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/observation_range_bearing.hpp
+[40.417s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[40.432s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_object_observation.hpp
+[40.447s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_range_beacon_observation.hpp
+[40.464s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/single_range_bearing_observation.hpp
+[40.484s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/waypoint.hpp
+[40.506s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/waypoint_sequence.hpp
+[40.520s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__builder.hpp
+[40.535s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__struct.hpp
+[40.552s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__traits.hpp
+[40.567s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__type_support.hpp
+[40.582s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/get_cm_graph.hpp
+[40.598s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__rosidl_typesupport_fastrtps_cpp.hpp
+[40.613s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[40.628s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__rosidl_typesupport_fastrtps_cpp.hpp
+[40.645s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__rosidl_typesupport_fastrtps_cpp.hpp
+[40.661s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__rosidl_typesupport_fastrtps_cpp.hpp
+[40.676s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[40.692s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[40.706s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[40.722s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[40.738s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[40.759s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__rosidl_typesupport_fastrtps_cpp.hpp
+[40.778s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__rosidl_typesupport_fastrtps_cpp.hpp
+[40.793s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__rosidl_typesupport_fastrtps_cpp.hpp
+[40.808s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[40.822s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[40.837s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[40.856s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[40.870s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+[40.885s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.900s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[40.917s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_object__rosidl_typesupport_introspection_cpp.hpp
+[40.936s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/generic_observation__rosidl_typesupport_introspection_cpp.hpp
+[40.955s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_constraint__rosidl_typesupport_introspection_cpp.hpp
+[40.971s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agent__rosidl_typesupport_introspection_cpp.hpp
+[40.985s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_agents__rosidl_typesupport_introspection_cpp.hpp
+[41.001s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/graph_slam_stats__rosidl_typesupport_introspection_cpp.hpp
+[41.015s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/network_of_poses__rosidl_typesupport_introspection_cpp.hpp
+[41.030s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[41.047s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[41.063s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/node_id_with_pose_vec__rosidl_typesupport_introspection_cpp.hpp
+[41.077s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_object__rosidl_typesupport_introspection_cpp.hpp
+[41.093s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_beacon__rosidl_typesupport_introspection_cpp.hpp
+[41.107s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/observation_range_bearing__rosidl_typesupport_introspection_cpp.hpp
+[41.124s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_object_observation__rosidl_typesupport_introspection_cpp.hpp
+[41.138s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_beacon_observation__rosidl_typesupport_introspection_cpp.hpp
+[41.156s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/single_range_bearing_observation__rosidl_typesupport_introspection_cpp.hpp
+[41.171s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[41.186s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/msg/detail/waypoint_sequence__rosidl_typesupport_introspection_cpp.hpp
+[41.201s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/include/mrpt_msgs/mrpt_msgs/srv/detail/get_cm_graph__rosidl_typesupport_introspection_cpp.hpp
+[41.215s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/pythonpath.sh
+[41.230s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/pythonpath.dsv
+[41.249s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs-0.5.0-py3.10.egg-info/PKG-INFO
+[41.266s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs-0.5.0-py3.10.egg-info/SOURCES.txt
+[41.281s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs-0.5.0-py3.10.egg-info/dependency_links.txt
+[41.296s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs-0.5.0-py3.10.egg-info/top_level.txt
+[41.313s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/__init__.py
+[41.327s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_c.c
+[41.343s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.363s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/_mrpt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[41.384s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/libmrpt_msgs__rosidl_generator_py.so
+[41.399s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.414s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.428s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.445s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/__init__.py
+[41.461s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_object.py
+[41.476s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_object_s.c
+[41.491s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_observation.py
+[41.505s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_observation_s.c
+[41.520s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_constraint.py
+[41.534s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_constraint_s.c
+[41.552s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agent.py
+[41.567s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agent_s.c
+[41.582s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agents.py
+[41.597s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agents_s.c
+[41.611s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_stats.py
+[41.626s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_stats_s.c
+[41.641s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_network_of_poses.py
+[41.658s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_network_of_poses_s.c
+[41.673s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_laser_scan.py
+[41.688s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_laser_scan_s.c
+[41.702s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose.py
+[41.717s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose_s.c
+[41.732s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose_vec.py
+[41.750s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose_vec_s.c
+[41.766s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_object.py
+[41.781s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_object_s.c
+[41.795s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_beacon.py
+[41.809s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_beacon_s.c
+[41.824s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_bearing.py
+[41.839s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_bearing_s.c
+[41.856s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_object_observation.py
+[41.871s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_object_observation_s.c
+[41.885s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_beacon_observation.py
+[41.900s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_beacon_observation_s.c
+[41.915s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_bearing_observation.py
+[41.930s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_bearing_observation_s.c
+[41.947s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint.py
+[41.963s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint_s.c
+[41.978s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint_sequence.py
+[41.992s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint_sequence_s.c
+[42.007s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv/__init__.py
+[42.022s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv/_get_cm_graph.py
+[42.036s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv/_get_cm_graph_s.c
+[42.053s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.054s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.054s] -- Up-to-date symlink: /home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/mrpt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.054s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GenericObservation.idl
+[42.070s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GraphConstraint.idl
+[42.085s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GraphSlamAgent.idl
+[42.100s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GraphSlamStats.idl
+[42.115s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/ObservationObject.idl
+[42.129s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/ObservationRangeBeacon.idl
+[42.147s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/ObservationRangeBearing.idl
+[42.163s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/WaypointSequence.idl
+[42.178s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GenericObject.idl
+[42.193s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/GraphSlamAgents.idl
+[42.208s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/NetworkOfPoses.idl
+[42.222s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/NodeIDWithLaserScan.idl
+[42.240s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/NodeIDWithPose.idl
+[42.257s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/NodeIDWithPoseVec.idl
+[42.273s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/SingleObjectObservation.idl
+[42.287s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/SingleRangeBeaconObservation.idl
+[42.302s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/SingleRangeBearingObservation.idl
+[42.317s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg/Waypoint.idl
+[42.331s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/srv/GetCMGraph.idl
+[42.349s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/GenericObservation.msg
+[42.365s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/GraphConstraint.msg
+[42.380s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/GraphSlamAgent.msg
+[42.394s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/GraphSlamStats.msg
+[42.409s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/ObservationObject.msg
+[42.424s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/ObservationRangeBeacon.msg
+[42.439s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/ObservationRangeBearing.msg
+[42.457s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-ros2/WaypointSequence.msg
+[42.473s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/GenericObject.msg
+[42.491s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/GraphSlamAgents.msg
+[42.511s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/NetworkOfPoses.msg
+[42.525s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/NodeIDWithLaserScan.msg
+[42.541s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/NodeIDWithPose.msg
+[42.560s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/NodeIDWithPoseVec.msg
+[42.584s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/SingleObjectObservation.msg
+[42.599s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/SingleRangeBeaconObservation.msg
+[42.613s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/SingleRangeBearingObservation.msg
+[42.628s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/msg-common/Waypoint.msg
+[42.644s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/srv/GetCMGraph.srv
+[42.659s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/srv/GetCMGraph_Request.msg
+[42.680s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/srv/GetCMGraph_Response.msg
+[42.694s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/ament_index/resource_index/package_run_dependencies/mrpt_msgs
+[42.709s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/ament_index/resource_index/parent_prefix_path/mrpt_msgs
+[42.723s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/ament_prefix_path.sh
+[42.741s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/ament_prefix_path.dsv
+[42.758s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/path.sh
+[42.775s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/environment/path.dsv
+[42.790s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/local_setup.bash
+[42.805s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/local_setup.sh
+[42.820s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/local_setup.zsh
+[42.834s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/local_setup.dsv
+[42.851s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/package.dsv
+[42.867s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/ament_index/resource_index/packages/mrpt_msgs
+[42.882s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/rosidl_cmake-extras.cmake
+[42.897s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.912s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.927s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[42.944s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[42.963s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.981s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.997s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgsConfig.cmake
+[43.012s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgsConfig-version.cmake
+[43.026s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/package.xml
+[43.042s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_generator_c.so
+[43.043s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_generator_c.so" to ""
+[43.043s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_fastrtps_c.so
+[43.045s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[43.045s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_introspection_c.so
+[43.046s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[43.046s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_c.so
+[43.048s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_c.so" to ""
+[43.049s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[43.050s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[43.050s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_introspection_cpp.so
+[43.052s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[43.052s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_cpp.so
+[43.053s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_typesupport_cpp.so" to ""
+[43.148s] Listing '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/__init__.py'...
+[43.149s] Listing '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/__init__.py'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_object.py'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_generic_observation.py'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_constraint.py'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agent.py'...
+[43.149s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_agents.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_graph_slam_stats.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_network_of_poses.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_laser_scan.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_node_id_with_pose_vec.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_object.py'...
+[43.150s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_beacon.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_observation_range_bearing.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_object_observation.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_beacon_observation.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_single_range_bearing_observation.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint.py'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/msg/_waypoint_sequence.py'...
+[43.151s] Listing '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv'...
+[43.151s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv/__init__.py'...
+[43.152s] Compiling '/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages/mrpt_msgs/srv/_get_cm_graph.py'...
+[43.159s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_generator_py.so
+[43.160s] -- Set runtime path of "/home/jozef/ros2_ws/install/mrpt_msgs/lib/libmrpt_msgs__rosidl_generator_py.so" to ""
+[43.161s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_generator_cExport.cmake
+[43.161s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_generator_cExport-noconfig.cmake
+[43.161s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[43.162s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[43.162s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[43.162s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[43.163s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_cExport.cmake
+[43.163s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[43.164s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_generator_cppExport.cmake
+[43.164s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[43.165s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[43.165s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[43.165s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[43.166s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_cppExport.cmake
+[43.166s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/mrpt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[43.166s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_generator_pyExport.cmake
+[43.166s] -- Installing: /home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake/export_mrpt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[43.173s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_msgs

@@ -1,0 +1,21 @@
+[3.432s] Invoking command in '/home/jozef/ros2_ws/build/localization_benchmarking': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data
+[4.654s] running develop
+[5.569s] running egg_info
+[5.664s] writing localization_benchmarking.egg-info/PKG-INFO
+[5.664s] writing dependency_links to localization_benchmarking.egg-info/dependency_links.txt
+[5.664s] writing entry points to localization_benchmarking.egg-info/entry_points.txt
+[5.664s] writing requirements to localization_benchmarking.egg-info/requires.txt
+[5.664s] writing top-level names to localization_benchmarking.egg-info/top_level.txt
+[5.768s] reading manifest file 'localization_benchmarking.egg-info/SOURCES.txt'
+[5.770s] writing manifest file 'localization_benchmarking.egg-info/SOURCES.txt'
+[5.848s] running build_ext
+[5.849s] Creating /home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages/localization-benchmarking.egg-link (link to .)
+[5.861s] Installing data_logger script to /home/jozef/ros2_ws/install/localization_benchmarking/lib/localization_benchmarking
+[5.863s] Installing experiment_runner script to /home/jozef/ros2_ws/install/localization_benchmarking/lib/localization_benchmarking
+[5.863s] 
+[5.865s] Installed /home/jozef/ros2_ws/build/localization_benchmarking
+[5.865s] running symlink_data
+[5.865s] creating /home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/results
+[5.866s] symbolically linking /home/jozef/ros2_ws/build/localization_benchmarking/rviz/rviz.rviz -> /home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/results
+[5.866s] symbolically linking /home/jozef/ros2_ws/build/localization_benchmarking/rviz/rviz.rviz -> /home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/rosbag_files
+[6.016s] Invoked command in '/home/jozef/ros2_ws/build/localization_benchmarking' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data

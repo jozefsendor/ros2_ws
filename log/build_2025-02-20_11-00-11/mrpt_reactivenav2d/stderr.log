@@ -1,0 +1,21 @@
+In file included from [01m[K/opt/ros/humble/include/mrpt/core/include/mrpt/core/exceptions.h:14[m[K,
+                 from [01m[K/opt/ros/humble/include/mrpt/config/include/mrpt/config/CConfigFileBase.h:12[m[K,
+                 from [01m[K/opt/ros/humble/include/mrpt/config/include/mrpt/config/CConfigFile.h:11[m[K,
+                 from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/include/mrpt_reactivenav2d/mrpt_reactivenav2d_node.hpp:11[m[K,
+                 from [01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:10[m[K:
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:[m[K In member function ‘[01m[Kvoid mrpt_reactivenav2d::ReactiveNav2DNode::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<mrpt_nav_interfaces::action::NavigateGoal> >)[m[K’:
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:600:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Keep past actions and cancel them if we accept this one[m[K’
+  600 |         [01;36m[KMRPT_TODO[m[K("Keep past actions and cancel them if we accept this one");
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:[m[K In member function ‘[01m[Kvoid mrpt_reactivenav2d::ReactiveNav2DNode::handle_accepted_wp(std::shared_ptr<rclcpp_action::ServerGoalHandle<mrpt_nav_interfaces::action::NavigateWaypoints> >)[m[K’:
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:704:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Keep past actions and cancel them if we accept this one[m[K’
+  704 |         [01;36m[KMRPT_TODO[m[K("Keep past actions and cancel them if we accept this one");
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:[m[K In member function ‘[01m[Kvirtual bool mrpt_reactivenav2d::ReactiveNav2DNode::MyReactiveInterface::getCurrentPoseAndSpeeds(mrpt::math::TPose2D&, mrpt::math::TTwist2D&, mrpt::system::TTimeStamp&, mrpt::math::TPose2D&, std::string&)[m[K’:
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:821:9:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Retrieve current speeds from /odom topic?[m[K’
+  821 |         [01;36m[KMRPT_TODO[m[K("Retrieve current speeds from /odom topic?");
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:[m[K In member function ‘[01m[Kvirtual bool mrpt_reactivenav2d::ReactiveNav2DNode::MyReactiveInterface::senseObstacles(mrpt::maps::CSimplePointsMap&, mrpt::system::TTimeStamp&)[m[K’:
+[01m[K/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d/src/mrpt_reactivenav2d_node.cpp:875:17:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: TODO: Check age of obstacles![m[K’
+  875 |                 [01;36m[KMRPT_TODO[m[K("Check age of obstacles!");
+      |                 [01;36m[K^~~~~~~~~[m[K

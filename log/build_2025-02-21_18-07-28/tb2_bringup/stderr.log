@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/jozef/ros2_ws/build/tb2_bringup/resource/tb2_bringup' -> '/home/jozef/ros2_ws/install/tb2_bringup/share/ament_index/resource_index/packages/tb2_bringup'

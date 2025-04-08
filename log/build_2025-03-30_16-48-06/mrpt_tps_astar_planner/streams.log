@@ -1,0 +1,84 @@
+[0.048s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tps_astar_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tps_astar_planner
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.516s] -- The CXX compiler identification is GNU 11.4.0
+[0.552s] -- Detecting C compiler ABI info
+[0.845s] -- Detecting C compiler ABI info - done
+[0.867s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.868s] -- Detecting C compile features
+[0.871s] -- Detecting C compile features - done
+[0.879s] -- Detecting CXX compiler ABI info
+[1.172s] -- Detecting CXX compiler ABI info - done
+[1.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.209s] -- Detecting CXX compile features
+[1.209s] -- Detecting CXX compile features - done
+[1.222s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.750s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.864s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.044s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.062s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.095s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.394s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.406s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.870s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.022s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.283s] -- Looking for pthread.h
+[4.641s] -- Looking for pthread.h - found
+[4.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.130s] -- Found Threads: TRUE  
+[5.530s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.644s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.786s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.860s] -- Found mrpt_msgs: 0.5.0 (/home/jozef/ros2_ws/install/mrpt_msgs/share/mrpt_msgs/cmake)
+[5.933s] -- Found mrpt_nav_interfaces: 2.2.1 (/home/jozef/ros2_ws/install/mrpt_nav_interfaces/share/mrpt_nav_interfaces/cmake)
+[6.164s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[6.195s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.415s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.470s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.476s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.476s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.490s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.689s] -- Found stereo_msgs: 4.2.4 (/opt/ros/humble/share/stereo_msgs/cmake)
+[6.756s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.862s] -- MRPT_VERSION: 
+[6.892s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.215s] -- Configuring done
+[7.290s] -- Generating done
+[7.309s] -- Build files have been written to: /home/jozef/ros2_ws/build/mrpt_tps_astar_planner
+[7.392s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tps_astar_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tps_astar_planner
+[7.400s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tps_astar_planner -- -j8 -l8
+[7.714s] [ 50%] [32mBuilding CXX object CMakeFiles/mrpt_tps_astar_planner_node.dir/src/mrpt_tps_astar_planner_node.cpp.o[0m
+[64.924s] [100%] [32m[1mLinking CXX executable mrpt_tps_astar_planner_node[0m
+[69.020s] [100%] Built target mrpt_tps_astar_planner_node
+[69.049s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tps_astar_planner -- -j8 -l8
+[69.053s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tps_astar_planner
+[69.071s] -- Install configuration: ""
+[69.072s] -- Execute custom install script
+[69.073s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/lib/mrpt_tps_astar_planner/mrpt_tps_astar_planner_node
+[69.092s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/launch/tps_astar_planner.launch.py
+[69.111s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/ini/barn-pf-localization.ini
+[69.127s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/ini/ptgs_jackal.ini
+[69.145s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/params/costmap-obstacles.yaml
+[69.162s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/params/costmap-prefer-waypoints.yaml
+[69.179s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/params/nav-engine-params.yaml
+[69.196s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/configs/params/planner-params.yaml
+[69.216s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/ament_index/resource_index/package_run_dependencies/mrpt_tps_astar_planner
+[69.234s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/ament_index/resource_index/parent_prefix_path/mrpt_tps_astar_planner
+[69.251s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/environment/ament_prefix_path.sh
+[69.268s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/environment/ament_prefix_path.dsv
+[69.287s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/environment/path.sh
+[69.304s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/environment/path.dsv
+[69.323s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/local_setup.bash
+[69.343s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/local_setup.sh
+[69.363s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/local_setup.zsh
+[69.380s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/local_setup.dsv
+[69.398s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/package.dsv
+[69.416s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/ament_index/resource_index/packages/mrpt_tps_astar_planner
+[69.434s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/cmake/mrpt_tps_astar_plannerConfig.cmake
+[69.451s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/cmake/mrpt_tps_astar_plannerConfig-version.cmake
+[69.471s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tps_astar_planner/share/mrpt_tps_astar_planner/package.xml
+[69.493s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces:/home/jozef/ros2_ws/install/mrpt_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/lib:/home/jozef/ros2_ws/install/mrpt_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mrpt_nav_interfaces/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mrpt_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tps_astar_planner

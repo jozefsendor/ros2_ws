@@ -1,0 +1,62 @@
+[0.060s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+[0.424s] -- The C compiler identification is GNU 11.4.0
+[0.637s] -- The CXX compiler identification is GNU 11.4.0
+[0.660s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.921s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.922s] -- Detecting C compile features
+[0.923s] -- Detecting C compile features - done
+[0.931s] -- Detecting CXX compiler ABI info
+[1.203s] -- Detecting CXX compiler ABI info - done
+[1.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.224s] -- Detecting CXX compile features - done
+[1.237s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.241s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.535s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.686s] -- Configuring done
+[2.693s] -- Generating done
+[2.696s] -- Build files have been written to: /home/jozef/ros2_ws/build/mrpt_tutorials
+[2.710s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+[2.711s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[5.830s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[5.860s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials
+[5.881s] -- Install configuration: ""
+[5.881s] -- Execute custom install script
+[5.881s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/README.md
+[5.912s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/driving_in_office.rawlog
+[5.948s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/datasets/driving_in_office_obs.rawlog
+[5.994s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_astar_planner_gridmap.launch.py
+[6.053s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_composable_nodes.launch.py
+[6.077s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_localization_pf_mvsim_2d_lidar.launch.py
+[6.118s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_map_server_from_mm.launch.py
+[6.179s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_map_server_gridmap_from_yaml.launch.py
+[6.248s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_pointcloud_pipeline_mvsim.launch.py
+[6.310s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_reactive_nav_mvsim.launch.py
+[6.381s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/launch/demo_ro.launch
+[6.454s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/demo_world2.png
+[6.537s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/demo_world2.yaml
+[6.607s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/gh25_real_top_laser.simplemap
+[6.663s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/gh25_simulated.simplemap
+[6.745s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/maps/lab7.yaml
+[6.806s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/mvsim/demo_world2.world.xml
+[6.888s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/params/mvsim_ros2_params.yaml
+[6.972s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/rviz2/gridmap.rviz
+[7.044s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/rviz2/rnav_demo.rviz
+[7.093s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/package_run_dependencies/mrpt_tutorials
+[7.170s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/parent_prefix_path/mrpt_tutorials
+[7.222s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/ament_prefix_path.sh
+[7.282s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/ament_prefix_path.dsv
+[7.345s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/path.sh
+[7.424s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/environment/path.dsv
+[7.496s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.bash
+[7.526s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.sh
+[7.559s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.zsh
+[7.625s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/local_setup.dsv
+[7.698s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.dsv
+[7.762s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/ament_index/resource_index/packages/mrpt_tutorials
+[7.817s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/cmake/mrpt_tutorialsConfig.cmake
+[7.862s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/cmake/mrpt_tutorialsConfig-version.cmake
+[7.904s] -- Symlinking: /home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.xml
+[7.977s] Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials

@@ -4,16 +4,3 @@ mrpt_nav_interfaces.egg-info/PKG-INFO
 mrpt_nav_interfaces.egg-info/SOURCES.txt
 mrpt_nav_interfaces.egg-info/dependency_links.txt
 mrpt_nav_interfaces.egg-info/top_level.txt
-mrpt_nav_interfaces/action/__init__.py
-mrpt_nav_interfaces/action/_navigate_goal.py
-mrpt_nav_interfaces/action/_navigate_waypoints.py
-mrpt_nav_interfaces/msg/__init__.py
-mrpt_nav_interfaces/msg/_georeferencing_metadata.py
-mrpt_nav_interfaces/msg/_navigation_feedback.py
-mrpt_nav_interfaces/msg/_navigation_final_status.py
-mrpt_nav_interfaces/srv/__init__.py
-mrpt_nav_interfaces/srv/_get_gridmap_layer.py
-mrpt_nav_interfaces/srv/_get_layers.py
-mrpt_nav_interfaces/srv/_get_pointmap_layer.py
-mrpt_nav_interfaces/srv/_make_plan_from_to.py
-mrpt_nav_interfaces/srv/_make_plan_to.py

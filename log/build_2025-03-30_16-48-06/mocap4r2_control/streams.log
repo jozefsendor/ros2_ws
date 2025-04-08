@@ -1,0 +1,105 @@
+[0.201s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_control
+[1.518s] -- The C compiler identification is GNU 11.4.0
+[1.518s] -- The CXX compiler identification is GNU 11.4.0
+[1.518s] -- Detecting C compiler ABI info
+[1.518s] -- Detecting C compiler ABI info - done
+[1.518s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.518s] -- Detecting C compile features
+[1.518s] -- Detecting C compile features - done
+[1.519s] -- Detecting CXX compiler ABI info
+[1.950s] -- Detecting CXX compiler ABI info - done
+[2.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.007s] -- Detecting CXX compile features
+[2.012s] -- Detecting CXX compile features - done
+[2.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.703s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.911s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[5.254s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.310s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.363s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.847s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.858s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.365s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.909s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.962s] -- Looking for pthread.h
+[7.422s] -- Looking for pthread.h - found
+[7.426s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.835s] -- Found Threads: TRUE  
+[8.130s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[8.237s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/jozef/ros2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[8.439s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.911s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.017s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.025s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.025s] -- Configured cppcheck include dirs: /home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control/include
+[9.026s] -- Configured cppcheck exclude dirs and/or files: 
+[9.041s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.042s] -- Configured cpplint exclude dirs and/or files: 
+[9.043s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.045s] -- Added test 'lint_cmake' to check CMake code style
+[9.060s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.063s] -- Added test 'uncrustify' to check C / C++ code style
+[9.063s] -- Configured uncrustify additional arguments: 
+[9.064s] -- Added test 'xmllint' to check XML markup files
+[9.084s] -- Configuring done
+[9.223s] -- Generating done
+[9.290s] -- Build files have been written to: /home/jozef/ros2_ws/build/mocap4r2_control
+[9.379s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_control
+[9.390s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_control -- -j8 -l8
+[9.640s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.663s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.692s] [ 21%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o[0m
+[9.693s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o[0m
+[9.726s] [ 35%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o[0m
+[13.932s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.968s] [ 42%] Built target gtest_main
+[25.060s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[25.443s] [ 50%] Built target gtest
+[43.254s] [ 57%] [32m[1mLinking CXX shared library libmocap4r2_control.so[0m
+[45.487s] [ 57%] Built target mocap4r2_control
+[45.564s] [ 64%] [32mBuilding CXX object CMakeFiles/auxiliar_main.dir/src/auxiliar_main.cpp.o[0m
+[53.465s] [ 71%] [32m[1mLinking CXX executable auxiliar_main[0m
+[54.629s] [ 71%] Built target auxiliar_main
+[54.733s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o[0m
+[78.153s] [ 85%] [32m[1mLinking CXX executable test_auxiliar[0m
+[79.799s] [ 85%] Built target test_auxiliar
+[79.848s] [ 92%] [32mBuilding CXX object test/CMakeFiles/test_control.dir/test_control.cpp.o[0m
+[94.811s] [100%] [32m[1mLinking CXX executable test_control[0m
+[96.064s] [100%] Built target test_control
+[96.091s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_control -- -j8 -l8
+[96.095s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_control
+[96.106s] -- Install configuration: ""
+[96.107s] -- Execute custom install script
+[96.108s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/include//mocap4r2_control/AuxiliarNode.hpp
+[96.122s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/include//mocap4r2_control/ControlledLifecycleNode.hpp
+[96.137s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/include//mocap4r2_control/ControllerNode.hpp
+[96.153s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/config/config_example.yaml
+[96.168s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/launch/auxiliar.launch.py
+[96.183s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+[96.199s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/lib/mocap4r2_control/auxiliar_main
+[96.214s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.sh
+[96.229s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.dsv
+[96.244s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control
+[96.261s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control
+[96.276s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.sh
+[96.291s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.dsv
+[96.306s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.sh
+[96.322s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.dsv
+[96.339s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.bash
+[96.354s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.sh
+[96.371s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.zsh
+[96.387s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.dsv
+[96.402s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv
+[96.419s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/ament_index/resource_index/packages/mocap4r2_control
+[96.434s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[96.449s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[96.464s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[96.479s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig.cmake
+[96.493s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig-version.cmake
+[96.508s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/package.xml
+[96.529s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_control

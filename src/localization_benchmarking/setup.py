@@ -28,6 +28,8 @@ setup(
         'console_scripts': [
             'experiment_runner = localization_benchmarking.experiment_runner:main',
             'data_logger = localization_benchmarking.data_logger:main',
+            'mocap_sender_node = localization_benchmarking.mocap_sender:main',
+            'path_executer = localization_benchmarking.path_executer:main',
         ],
     },
 )

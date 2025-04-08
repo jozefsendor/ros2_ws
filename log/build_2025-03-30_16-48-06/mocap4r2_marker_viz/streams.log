@@ -1,0 +1,82 @@
+[0.070s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_marker_viz
+[1.687s] -- The C compiler identification is GNU 11.4.0
+[1.687s] -- The CXX compiler identification is GNU 11.4.0
+[1.687s] -- Detecting C compiler ABI info
+[1.687s] -- Detecting C compiler ABI info - done
+[1.687s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.687s] -- Detecting C compile features
+[1.687s] -- Detecting C compile features - done
+[1.688s] -- Detecting CXX compiler ABI info
+[1.688s] -- Detecting CXX compiler ABI info - done
+[1.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.718s] -- Detecting CXX compile features
+[1.718s] -- Detecting CXX compile features - done
+[1.727s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.883s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.514s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.781s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.088s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.124s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.184s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.661s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.679s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.599s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.903s] -- Looking for pthread.h
+[8.188s] -- Looking for pthread.h - found
+[8.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.595s] -- Found Threads: TRUE  
+[8.908s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[8.975s] -- Found mocap4r2_msgs: 0.0.3 (/home/jozef/ros2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[9.139s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.363s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.881s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.885s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[9.885s] -- Configured cppcheck exclude dirs and/or files: 
+[9.891s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.891s] -- Configured cpplint exclude dirs and/or files: 
+[9.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.901s] -- Added test 'lint_cmake' to check CMake code style
+[9.903s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.921s] -- Added test 'uncrustify' to check C / C++ code style
+[9.921s] -- Configured uncrustify additional arguments: 
+[9.921s] -- Added test 'xmllint' to check XML markup files
+[9.924s] -- Configuring done
+[10.040s] -- Generating done
+[10.071s] -- Build files have been written to: /home/jozef/ros2_ws/build/mocap4r2_marker_viz
+[10.154s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_marker_viz
+[10.162s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_marker_viz -- -j8 -l8
+[26.725s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[45.993s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[46.593s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[46.643s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[54.208s] [100%] [32m[1mLinking CXX executable mocap4r2_marker_viz[0m
+[56.180s] [100%] Built target mocap4r2_marker_viz
+[56.319s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_marker_viz -- -j8 -l8
+[56.323s] Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_marker_viz
+[62.613s] -- Install configuration: ""
+[62.615s] -- Execute custom install script
+[62.615s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+[62.615s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+[62.615s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+[62.616s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+[62.617s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+[62.617s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+[62.617s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+[62.617s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+[62.617s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+[62.618s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+[62.621s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+[62.621s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+[62.622s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+[62.622s] -- Symlinking: /home/jozef/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml
+[62.692s] Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/humble LD_LIBRARY_PATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/lib:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jozef/ros2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jozef/ros2_ws/build/mocap4r2_marker_viz

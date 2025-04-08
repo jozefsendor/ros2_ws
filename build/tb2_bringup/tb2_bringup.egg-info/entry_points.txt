@@ -1,2 +1,0 @@
-[console_scripts]
-tb2_bringup_node = tb2_bringup.tb2_bringup:main

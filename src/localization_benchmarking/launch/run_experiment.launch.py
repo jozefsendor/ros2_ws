@@ -6,6 +6,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from launch.actions import TimerAction
 import os
+import yaml
 from launch.actions import LogInfo
 from ament_index_python.packages import get_package_share_directory
 
@@ -38,12 +39,33 @@ def generate_launch_description():
         default_value='test',
         description='Rosbag filename'
     )
+    csv_path_arg = DeclareLaunchArgument(
+        'csv_path',
+        default_value="false",
+        description='Path for saving results'
+    )
+
+    mocap_params_dir = os.path.join(
+        package_dir,
+        'config',
+        'experiment_params.yaml',
+    )
+    
+    with open(mocap_params_dir, 'r') as file:
+        mocap_params = yaml.safe_load(file)
+    dx =  mocap_params["mocap"]["dx"]
+    dy = mocap_params["mocap"]["dy"]
+    dz = mocap_params["mocap"]["dz"]
+    dtheta = mocap_params["mocap"]["dtheta"]
+
+    print(f"dx: {dx}, dy: {dy}, dz: {dz}, dthetha: {dtheta}")
     
     algorithm = LaunchConfiguration('algorithm')
     algorithm_topic = LaunchConfiguration('algorithm_topic')
     config_file = LaunchConfiguration('config_file')
     map_file = LaunchConfiguration('map_file')
     rosbag_filename = LaunchConfiguration('rosbag_filename')
+    csv_path = LaunchConfiguration('csv_path')
 
     mrpt_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(
@@ -62,11 +84,12 @@ def generate_launch_description():
         }.items()
     )
 
+
     map_server_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(os.path.join(
             get_package_share_directory('mrpt_map_server'), 'launch',
             'mrpt_map_server.launch.py')),
-        launch_arguments={'map_yaml_file': map_file}.items()
+        launch_arguments={'map_yaml_file': LaunchConfiguration('map_file')}.items()
     )
 
     amcl_launch = IncludeLaunchDescription(
@@ -92,28 +115,37 @@ def generate_launch_description():
         executable='data_logger',
         name='data_logger_node',
         parameters=[{
-            'frequency': 10.0,
-            'path_name': rosbag_filename,
+            'frequency': 20.0,
+            'rosbag': rosbag_filename,
             'algorithm': algorithm,
-            'algorithm_topic': algorithm_topic
+            'algorithm_topic': algorithm_topic,
+            'csv_path': csv_path,
+            'dx': dx,
+            'dy': dy,
+            'dz': dz,
+            'dtheta': dtheta,
         }]
     )
 
     return LaunchDescription([
+        rviz2_node,
         algorithm_arg,
         config_file_arg,
+        csv_path_arg,
         map_file_arg,
 
         # Uruchomienie AMCL jeśli wybrano "amcl"
         GroupAction([
-            amcl_launch,
+            TimerAction(period=3.0, actions=[amcl_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'amcl'"]))),
 
         # Uruchomienie MRPT + map_server jeśli wybrano "mrpt"
         GroupAction([
-            map_server_launch,
-            mrpt_launch,
+            TimerAction(period=3.0, actions=[map_server_launch]),
+            TimerAction(period=3.0, actions=[mrpt_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'mrpt'"]))),
 
-        TimerAction(period=1.0, actions=[data_logger_node]),
+        TimerAction(period=3.0, actions=[data_logger_node]),
+
+
     ])

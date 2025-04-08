@@ -1,5 +1,5 @@
 tb2_controller:
   ros__parameters:
     timer_period: 0.1
-    path_name: "spiral"
+    path_name: "eight"
     path_execution: True

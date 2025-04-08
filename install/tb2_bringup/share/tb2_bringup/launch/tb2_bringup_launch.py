@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/tb2_bringup/launch/tb2_bringup_launch.py

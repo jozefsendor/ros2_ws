@@ -1,0 +1,1091 @@
+[0.290s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.290s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79213ac766e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79213ac75f60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79213ac75f60>>, mixin_verb=('build',))
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jozef/ros2_ws'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(results/tune/amcl/run0) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight1) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/eight2) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/spiral) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square1) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square2) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/square3) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_files/test2) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_benchmarking) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization_benchmarking' with type 'ros.ament_python' and name 'localization_benchmarking'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_filters) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message_filters' with type 'ros.ament_cmake' and name 'message_filters'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_control/mocap4r2_control' with type 'ros.ament_cmake' and name 'mocap4r2_control'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/mocap4r2_control_msgs) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_control/mocap4r2_control_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_control_msgs'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_control/rqt_mocap4r2_control) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_control/rqt_mocap4r2_control' with type 'ros.ament_cmake' and name 'rqt_mocap4r2_control'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_dummy_driver) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_dummy_driver' with type 'ros.ament_cmake' and name 'mocap4r2_dummy_driver'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_marker_viz/mocap4r2_marker_publisher' with type 'ros.ament_cmake' and name 'mocap4r2_marker_publisher'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_marker_viz/mocap4r2_marker_viz' with type 'ros.ament_cmake' and name 'mocap4r2_marker_viz'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs' with type 'ros.ament_cmake' and name 'mocap4r2_marker_viz_srvs'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_optitrack_driver) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_optitrack_driver' with type 'ros.ament_cmake' and name 'mocap4r2_optitrack_driver'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_robot_gt/mocap4r2_robot_gt' with type 'ros.ament_cmake' and name 'mocap4r2_robot_gt'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_robot_gt_msgs'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2cli) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2cli' with type 'ros.ament_python' and name 'mocap4r2cli'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_msgs'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_msgs) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_msgs' with type 'ros.ament_cmake' and name 'mrpt_msgs'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_map_server) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_map_server' with type 'ros.ament_cmake' and name 'mrpt_map_server'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_msgs_bridge) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_msgs_bridge' with type 'ros.ament_cmake' and name 'mrpt_msgs_bridge'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_nav_interfaces) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_nav_interfaces' with type 'ros.ament_cmake' and name 'mrpt_nav_interfaces'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_navigation) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_navigation' with type 'ros.ament_cmake' and name 'mrpt_navigation'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pf_localization) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_pf_localization' with type 'ros.ament_cmake' and name 'mrpt_pf_localization'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_pointcloud_pipeline) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_pointcloud_pipeline' with type 'ros.ament_cmake' and name 'mrpt_pointcloud_pipeline'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_rawlog) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_rawlog' with type 'ros.ament_cmake' and name 'mrpt_rawlog'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_reactivenav2d) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_reactivenav2d' with type 'ros.ament_cmake' and name 'mrpt_reactivenav2d'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tps_astar_planner) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_tps_astar_planner' with type 'ros.ament_cmake' and name 'mrpt_tps_astar_planner'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/mrpt_tutorials) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mrpt_navigation/mrpt_tutorials' with type 'ros.ament_cmake' and name 'mrpt_tutorials'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/mrpt_navigation/scripts) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/neo_localization2) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neo_localization2' with type 'ros.ament_cmake' and name 'neo_localization2'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_control) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb2_control' with type 'ros.ament_python' and name 'tb2_control'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb2_slam) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb2_slam' with type 'ros.ament_cmake' and name 'tb2_slam'
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/tb2_slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/tb2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/rqt_mocap4r2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/neo_localization2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_tutorials' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_tps_astar_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_reactivenav2d' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.547s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_rawlog' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_pf_localization' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_map_server' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_nav_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_msgs_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mrpt_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2cli' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_robot_gt' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_robot_gt_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_optitrack_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_viz' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_dummy_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/mocap4r2_control_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/message_filters' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.548s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jozef/ros2_ws/install/localization_benchmarking' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/tb2_slam' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/rqt_mocap4r2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/neo_localization2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_tutorials' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_tps_astar_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_reactivenav2d' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_rawlog' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_pf_localization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_map_server' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_nav_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_msgs_bridge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mrpt_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_robot_gt' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_robot_gt_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_optitrack_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_viz' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_publisher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_dummy_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.549s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.550s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.550s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/mocap4r2_control_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.550s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jozef/ros2_ws/install/message_filters' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.551s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/jozef/ros2_ws/install
+[0.554s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/humble
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.695s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'message_filters' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding message_filters
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_target' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_clean_first' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'cmake_force_configure' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'ament_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'localization_benchmarking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.697s] DEBUG:colcon.colcon_core.verb:Building package 'localization_benchmarking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/localization_benchmarking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/localization_benchmarking', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/localization_benchmarking', 'symlink_install': True, 'test_result_base': None}
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_target' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'message_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'message_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/message_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/message_filters', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/message_filters', 'symlink_install': True, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_control_msgs', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_viz_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_marker_viz_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs', 'symlink_install': True, 'test_result_base': None}
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_msgs', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_robot_gt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_robot_gt_msgs', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_msgs', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pointcloud_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_pointcloud_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline', 'symlink_install': True, 'test_result_base': None}
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_tutorials', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials', 'symlink_install': True, 'test_result_base': None}
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_target' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_clean_first' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'cmake_force_configure' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'ament_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'neo_localization2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] DEBUG:colcon.colcon_core.verb:Building package 'neo_localization2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/neo_localization2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/neo_localization2', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/neo_localization2', 'symlink_install': True, 'test_result_base': None}
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_target' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] DEBUG:colcon.colcon_core.verb:Building package 'tb2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/tb2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/tb2_control', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/tb2_control', 'symlink_install': True, 'test_result_base': None}
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_target' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'tb2_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] DEBUG:colcon.colcon_core.verb:Building package 'tb2_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/tb2_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/tb2_slam', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/tb2_slam', 'symlink_install': True, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_control', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control', 'symlink_install': True, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_marker_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_marker_publisher', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_marker_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_marker_viz', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz', 'symlink_install': True, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.706s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_robot_gt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_robot_gt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_robot_gt', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt', 'symlink_install': True, 'test_result_base': None}
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_target' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_clean_first' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_force_configure' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'ament_cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.706s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2cli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2cli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2cli', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2cli', 'symlink_install': True, 'test_result_base': None}
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_target' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_msgs_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_msgs_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_msgs_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_msgs_bridge', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_msgs_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'mrpt_nav_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_nav_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_nav_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_nav_interfaces', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_nav_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mrpt_rawlog' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_rawlog' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_rawlog', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_rawlog', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_rawlog', 'symlink_install': True, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_dummy_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_dummy_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_dummy_driver', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_dummy_driver', 'symlink_install': True, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_optitrack_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.709s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_optitrack_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mocap4r2_optitrack_driver', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_optitrack_driver', 'symlink_install': True, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_map_server', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_map_server', 'symlink_install': True, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_pf_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_pf_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_pf_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_pf_localization', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pf_localization', 'symlink_install': True, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_reactivenav2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_reactivenav2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_reactivenav2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_reactivenav2d', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_reactivenav2d', 'symlink_install': True, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mrpt_tps_astar_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_tps_astar_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_tps_astar_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_tps_astar_planner', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tps_astar_planner', 'symlink_install': True, 'test_result_base': None}
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_mocap4r2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/rqt_mocap4r2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/rqt_mocap4r2_control', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mocap4r2_control/rqt_mocap4r2_control', 'symlink_install': True, 'test_result_base': None}
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mrpt_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'mrpt_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jozef/ros2_ws/build/mrpt_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jozef/ros2_ws/install/mrpt_navigation', 'merge_install': False, 'path': '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.713s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.714s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mrpt_msgs' with build type 'ament_cmake'
+[0.714s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mrpt_msgs'
+[0.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control_msgs' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control_msgs'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mocap_msgs' with build type 'ament_cmake'
+[0.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mocap_msgs'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.737s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials' with build type 'ament_cmake'
+[0.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials'
+[0.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs' with build type 'ament_cmake'
+[0.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs' with build type 'ament_cmake'
+[0.748s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs'
+[0.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline' with build type 'ament_cmake'
+[0.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline'
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.759s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jozef/ros2_ws/src/localization_benchmarking' with build type 'ament_python'
+[0.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_benchmarking', 'ament_prefix_path')
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/ament_prefix_path.ps1'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/ament_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/ament_prefix_path.sh'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_msgs
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_control_msgs
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_msgs
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_robot_gt_msgs
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline
+[1.255s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jozef/ros2_ws/src/localization_benchmarking'
+[1.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_tutorials
+[3.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/localization_benchmarking': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data
+[6.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_tutorials -- -j8 -l8
+[6.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials
+[6.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline
+[6.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline -- -j8 -l8
+[6.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_benchmarking', 'pythonpath_develop')
+[6.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/build/localization_benchmarking/share/localization_benchmarking/hook/pythonpath_develop.ps1'
+[6.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/localization_benchmarking' returned '0': PYTHONPATH=/home/jozef/ros2_ws/build/localization_benchmarking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jozef/ros2_ws/build/localization_benchmarking/build --no-deps symlink_data
+[6.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jozef/ros2_ws/build/localization_benchmarking/share/localization_benchmarking/hook/pythonpath_develop.dsv'
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/build/localization_benchmarking/share/localization_benchmarking/hook/pythonpath_develop.sh'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking' for CMake module files
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking' for CMake config files
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking/lib'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking/bin'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking/lib/pkgconfig/localization_benchmarking.pc'
+[6.654s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking/lib/python3.10/site-packages'
+[6.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_benchmarking', 'pythonpath')
+[6.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/pythonpath.ps1'
+[6.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/pythonpath.dsv'
+[6.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/hook/pythonpath.sh'
+[6.668s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/localization_benchmarking/bin'
+[6.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_benchmarking)
+[6.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/package.ps1'
+[6.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/package.dsv'
+[6.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/package.sh'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/package.bash'
+[6.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/localization_benchmarking/share/localization_benchmarking/package.zsh'
+[6.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jozef/ros2_ws/install/localization_benchmarking/share/colcon-core/packages/localization_benchmarking)
+[6.691s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/message_filters' with build type 'ament_cmake'
+[6.691s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/message_filters'
+[6.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_marker_viz_srvs
+[6.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_marker_viz_srvs -- -j8 -l8
+[6.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/message_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/message_filters -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/message_filters
+[6.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_robot_gt_msgs
+[6.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_robot_gt_msgs -- -j8 -l8
+[6.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_msgs
+[6.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_msgs -- -j8 -l8
+[7.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mocap4r2_control_msgs
+[7.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mocap4r2_control_msgs -- -j8 -l8
+[8.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mrpt_tutorials)
+[8.704s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials' for CMake module files
+[8.705s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials' for CMake config files
+[8.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('mrpt_tutorials', 'cmake_prefix_path')
+[8.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.ps1'
+[8.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mrpt_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --install /home/jozef/ros2_ws/build/mrpt_tutorials
+[8.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.dsv'
+[8.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.sh'
+[8.722s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/bin'
+[8.722s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/lib/pkgconfig/mrpt_tutorials.pc'
+[8.723s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/lib/python3.10/site-packages'
+[8.727s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/bin'
+[8.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.ps1'
+[8.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.dsv'
+[8.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.sh'
+[8.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.bash'
+[8.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.zsh'
+[8.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jozef/ros2_ws/install/mrpt_tutorials/share/colcon-core/packages/mrpt_tutorials)
+[8.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mrpt_tutorials)
+[8.749s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials' for CMake module files
+[8.756s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials' for CMake config files
+[8.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('mrpt_tutorials', 'cmake_prefix_path')
+[8.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.ps1'
+[8.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.dsv'
+[8.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/hook/cmake_prefix_path.sh'
+[8.772s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/bin'
+[8.772s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/lib/pkgconfig/mrpt_tutorials.pc'
+[8.772s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/lib/python3.10/site-packages'
+[8.773s] Level 1:colcon.colcon_core.environment:checking '/home/jozef/ros2_ws/install/mrpt_tutorials/bin'
+[8.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.ps1'
+[8.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.dsv'
+[8.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.sh'
+[8.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.bash'
+[8.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/jozef/ros2_ws/install/mrpt_tutorials/share/mrpt_tutorials/package.zsh'
+[8.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jozef/ros2_ws/install/mrpt_tutorials/share/colcon-core/packages/mrpt_tutorials)
+[8.804s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jozef/ros2_ws/src/neo_localization2' with build type 'ament_cmake'
+[8.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jozef/ros2_ws/src/neo_localization2'
+[8.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/neo_localization2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/neo_localization2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/neo_localization2
+[9.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jozef/ros2_ws/build/mrpt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake /home/jozef/ros2_ws/src/mrpt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jozef/ros2_ws/install/mrpt_msgs
+[9.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jozef/ros2_ws/build/mrpt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jozef/ros2_ws/install/tb2_control:/home/jozef/ros2_ws/install/mocap4r2cli:/home/jozef/ros2_ws/install/localization_benchmarking:/opt/ros/humble /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_msgs -- -j8 -l8

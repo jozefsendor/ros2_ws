@@ -29,3 +29,4 @@ do publikowania mapy: ros2 launch mrpt_map_server mrpt_map_server.launch.py map_
 do odpalenia pf: ros2 launch mrpt_pf_localization localization.launch.py use_composable:=false topic_sensors_2d_scan:=/tb6/scan
 
 
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/tb2/cmd_vel

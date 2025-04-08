@@ -1,4 +1,0 @@
-[0.059s] Invoking command in '/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline': /usr/bin/cmake --build /home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline -- -j8 -l8
-[0.354s] [ 33%] Built target mrpt_pointcloud_pipeline_composable
-[0.372s] [ 66%] Built target mrpt_pointcloud_pipeline_node
-[0.378s] [100%] Built target mrpt_pointcloud_pipeline_component

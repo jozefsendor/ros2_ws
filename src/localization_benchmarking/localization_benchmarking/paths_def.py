@@ -14,20 +14,20 @@ class SquarePath:
         if self.finished:
             return 0.0, 0.0, False
 
-        if t >= 12.0:
+        if t >= 32.0:
             self.finished = True
             return 0.0, 0.0, False
 
-        t = t % 12.0
+        t = t % 32.0
 
-        if 0.0 < t <= 1.0 or 3.0 < t <= 4.0 or 6.0 < t <= 7.0 or 9.0 < t <= 10.0:
+        if 0.0 < t <= 5.0 or 8.0 < t <= 13.0 or 16.0 < t <= 21.0 or 24.0 < t <= 29.0:
             # Forward movement on each side
-            msg.linear.x = 1.0
+            msg.linear.x = 0.2
             msg.angular.z = 0.0
-        elif 1.0 < t <= 3.0 or 4.0 < t <= 6.0 or 7.0 < t <= 9.0 or 10.0 < t < 12.0:
+        elif 5.0 < t <= 8.0 or 13.0 < t <= 16.0 or 21.0 < t <= 24.0 or 29.0 < t < 32.0:
             # Turning 90 degrees
             msg.linear.x = 0.0
-            msg.angular.z = math.pi / 4
+            msg.angular.z = math.pi / 6
         else:
             # In between transitions
             msg.linear.x = 0.0
@@ -53,7 +53,7 @@ class EightPath:
         amplitude = 1
         cycle = int(t // period)
 
-        msg.linear.x = 0.5
+        msg.linear.x = 0.2
         if cycle == 0:
             msg.angular.z = amplitude * math.sin((t - self.start_time) * 2 * math.pi / period)
         elif cycle == 1:

@@ -18,7 +18,7 @@ class MocapSender(Node):
 
     def save_mocap_pose(self, msg):
         mocap_pos = msg.rigidbodies[0].pose
-        mocap_yaw = self.yaw_from_quaternion(mocap_pos.orientation) + np.deg2rad(77)
+        mocap_yaw = self.yaw_from_quaternion(mocap_pos.orientation)
         # mocap_yaw = np.rad2deg(mocap_yaw)
         # self.get_logger().info(f'Publishing yaw={mocap_yaw}')
         # self.get_logger().info(f' ')

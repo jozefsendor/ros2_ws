@@ -126,7 +126,6 @@ def generate_launch_description():
             'dtheta': dtheta,
         }]
     )
-
     return LaunchDescription([
         rviz2_node,
         algorithm_arg,
@@ -136,16 +135,13 @@ def generate_launch_description():
 
         # Uruchomienie AMCL jeśli wybrano "amcl"
         GroupAction([
-            TimerAction(period=3.0, actions=[amcl_launch]),
+            TimerAction(period=5.0, actions=[LogInfo(msg="-----Launch AMCL-----"), amcl_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'amcl'"]))),
 
         # Uruchomienie MRPT + map_server jeśli wybrano "mrpt"
         GroupAction([
-            TimerAction(period=3.0, actions=[map_server_launch]),
-            TimerAction(period=3.0, actions=[mrpt_launch]),
+            TimerAction(period=5.0, actions=[LogInfo(msg="-----Launch mrpt_map_server-----"), map_server_launch]),
+            TimerAction(period=10.0, actions=[LogInfo(msg="-----Launch mrpt-----"), mrpt_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'mrpt'"]))),
-
-        TimerAction(period=3.0, actions=[data_logger_node]),
-
-
+        TimerAction(period=15.0,actions=[LogInfo(msg="-----Launch data_logger-----"),data_logger_node])
     ])

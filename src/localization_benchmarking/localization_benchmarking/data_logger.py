@@ -11,6 +11,7 @@ import csv
 import os
 import numpy as np
 import math
+import time
 
 
 def quaternion_from_euler(roll, pitch, yaw):
@@ -51,6 +52,7 @@ def euler_from_quaternion(quaternion):
 
 class DataLogger(Node):
     def __init__(self):
+        #time.sleep(2)
         super().__init__('data_logger_node')
         self.get_logger().info('data_logger_node startup')
 
@@ -136,14 +138,14 @@ class DataLogger(Node):
             return
 
         mocap_pose = m_msg.rigidbodies[0].pose
-        transformation = self.get_transformation("map", "map_temp")
+        # transformation = self.get_transformation("map_temp", "map")
 
-        if transformation:
-            transformed_pose = tf2_geometry_msgs.do_transform_pose(mocap_pose, transformation)
-        else:
-            # self.get_logger().warn("Using untransformed mocap pose due to missing transform")
-            # transformed_pose = mocap_pose
-            return
+        # if transformation:
+        #     transformed_pose = tf2_geometry_msgs.do_transform_pose(mocap_pose, transformation)
+        # else:
+        #     # self.get_logger().warn("Using untransformed mocap pose due to missing transform")
+        #     # transformed_pose = mocap_pose
+        #     return
         
         # Extract time stamp from message header
         time_stamp = m_msg.header.stamp.sec + m_msg.header.stamp.nanosec / 1e9
@@ -155,13 +157,17 @@ class DataLogger(Node):
         relative_time = time_stamp - self.start_time
 
         # Save data to CSV
-        mocap_x = transformed_pose.position.x * 1000
-        mocap_y = transformed_pose.position.y * 1000
-        _,_,mocap_yaw = euler_from_quaternion(transformed_pose.orientation)
+        # mocap_x = transformed_pose.position.x * 1000
+        # mocap_y = transformed_pose.position.y * 1000
+        # _,_,mocap_yaw = euler_from_quaternion(transformed_pose.orientation)
         
+        mocap_x = mocap_pose.position.x * 1000
+        mocap_y = mocap_pose.position.y * 1000
+        _,_,mocap_yaw = euler_from_quaternion(mocap_pose.orientation)
+
         ###### Warining here:############
         # TODO: Check this orientation below
-        mocap_yaw += np.deg2rad(77) 
+        # mocap_yaw += np.deg2rad(77) 
 
         algorithm_pos = a_msg.pose.pose
         _,_,algorithm_yaw = euler_from_quaternion(algorithm_pos.orientation)
@@ -183,7 +189,8 @@ class DataLogger(Node):
         odom = Odometry()
         odom.header = m_msg.header
         odom.header.frame_id = "map"
-        odom.pose.pose = transformed_pose
+        odom.pose.pose = mocap_pose
+        # odom.pose.pose = transformed_pose
         odom.pose.pose.orientation = quaternion_from_euler(0,0, mocap_yaw)
         self.publisher.publish(odom)
 

@@ -136,7 +136,7 @@ OptitrackDriverNode::process_frame(sFrameOfMocapData * data)
   if (mocap4r2_markers_pub_->get_subscription_count() > 0) {
     mocap4r2_msgs::msg::Markers msg;
     msg.header.stamp = now() - frame_delay;
-    msg.header.frame_id = "mocap_map";
+    msg.header.frame_id = "map";
     msg.frame_number = frame_number_;
 
     for (int i = 0; i < data->nLabeledMarkers; i++) {
@@ -164,7 +164,7 @@ OptitrackDriverNode::process_frame(sFrameOfMocapData * data)
   if (mocap4r2_rigid_body_pub_->get_subscription_count() > 0) {
     mocap4r2_msgs::msg::RigidBodies msg_rb;
     msg_rb.header.stamp = now() - frame_delay;
-    msg_rb.header.frame_id = "mocap_map";
+    msg_rb.header.frame_id = "map";
     msg_rb.frame_number = frame_number_;
 
     for (int i = 0; i < data->nRigidBodies; i++) {

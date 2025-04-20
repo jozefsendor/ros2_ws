@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_msgs/msg-ros2/GraphConstraint.msg

@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_generator_py/mrpt_nav_interfaces/srv/_get_gridmap_layer.py

@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tps_astar_planner/launch/tps_astar_planner.launch.py

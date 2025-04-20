@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/ament_cmake_python/mrpt_nav_interfaces/mrpt_nav_interfaces.egg-info/top_level.txt

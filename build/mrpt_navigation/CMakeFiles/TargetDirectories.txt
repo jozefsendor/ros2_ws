@@ -1,9 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/uninstall.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/mrpt_navigation_uninstall.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/test.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/edit_cache.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/rebuild_cache.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/list_install_components.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/install.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/install/local.dir
-/home/jozef/ros2_ws/build/mrpt_navigation/CMakeFiles/install/strip.dir

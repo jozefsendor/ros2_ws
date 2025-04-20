@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_typesupport_fastrtps_cpp/mrpt_nav_interfaces/action/detail/navigate_goal__rosidl_typesupport_fastrtps_cpp.hpp

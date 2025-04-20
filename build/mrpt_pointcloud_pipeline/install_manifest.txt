@@ -1,2 +1,0 @@
-/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/lib/libmrpt_pointcloud_pipeline_component.so
-/home/jozef/ros2_ws/install/mrpt_pointcloud_pipeline/lib/mrpt_pointcloud_pipeline/mrpt_pointcloud_pipeline_node

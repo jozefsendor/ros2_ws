@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_map_server/params/README.md

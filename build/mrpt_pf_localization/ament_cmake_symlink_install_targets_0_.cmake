@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jozef/ros2_ws/build/mrpt_pf_localization/bin/mrpt_pf_localization_composable" "TARGETS" "mrpt_pf_localization_composable" "DESTINATION" "lib/mrpt_pf_localization")

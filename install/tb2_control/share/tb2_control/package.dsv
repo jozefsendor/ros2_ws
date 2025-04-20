@@ -1,9 +1,0 @@
-source;share/tb2_control/hook/pythonpath.ps1
-source;share/tb2_control/hook/pythonpath.dsv
-source;share/tb2_control/hook/pythonpath.sh
-source;share/tb2_control/hook/ament_prefix_path.ps1
-source;share/tb2_control/hook/ament_prefix_path.dsv
-source;share/tb2_control/hook/ament_prefix_path.sh
-source;../../build/tb2_control/share/tb2_control/hook/pythonpath_develop.ps1
-source;../../build/tb2_control/share/tb2_control/hook/pythonpath_develop.dsv
-source;../../build/tb2_control/share/tb2_control/hook/pythonpath_develop.sh

@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials/launch/demo_map_server_gridmap_from_yaml.launch.py

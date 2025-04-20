@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_pointcloud_pipeline/ament_cmake_environment_hooks/local_setup.sh

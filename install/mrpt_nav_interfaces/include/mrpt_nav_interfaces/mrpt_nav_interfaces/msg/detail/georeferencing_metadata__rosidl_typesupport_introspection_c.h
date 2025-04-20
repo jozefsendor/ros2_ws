@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_typesupport_introspection_c/mrpt_nav_interfaces/msg/detail/georeferencing_metadata__rosidl_typesupport_introspection_c.h

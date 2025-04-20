@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_tutorials/launch/demo_reactive_nav_mvsim.launch.py

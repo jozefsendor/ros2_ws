@@ -1,5 +1,0 @@
-/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_component.so
-/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/libmrpt_pf_localization_core.so
-/home/jozef/ros2_ws/install/mrpt_pf_localization/lib/mrpt_pf_localization/mrpt_pf_localization_node
-/home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport.cmake
-/home/jozef/ros2_ws/install/mrpt_pf_localization/share/mrpt_pf_localization/cmake/export_mrpt_pf_localizationExport-noconfig.cmake

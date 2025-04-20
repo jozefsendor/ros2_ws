@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mocap_msgs/msg/Marker.msg

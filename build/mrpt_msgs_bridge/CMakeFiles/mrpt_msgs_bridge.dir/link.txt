@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmrpt_msgs_bridge.a CMakeFiles/mrpt_msgs_bridge.dir/src/beacon.cpp.o CMakeFiles/mrpt_msgs_bridge.dir/src/landmark.cpp.o CMakeFiles/mrpt_msgs_bridge.dir/src/network_of_poses.cpp.o
-/usr/bin/ranlib libmrpt_msgs_bridge.a

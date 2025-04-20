@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_generator_c/mrpt_msgs/msg/single_range_bearing_observation.h

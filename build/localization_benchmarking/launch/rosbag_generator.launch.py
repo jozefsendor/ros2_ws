@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/localization_benchmarking/launch/rosbag_generator.launch.py

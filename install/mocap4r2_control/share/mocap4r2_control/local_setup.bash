@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mocap4r2_control/ament_cmake_environment_hooks/local_setup.bash

@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_typesupport_introspection_c/mrpt_nav_interfaces/action/detail/navigate_waypoints__rosidl_typesupport_introspection_c.h

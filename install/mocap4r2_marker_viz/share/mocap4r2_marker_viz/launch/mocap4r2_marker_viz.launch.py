@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mocap4r2_marker_viz/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py

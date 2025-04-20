@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mocap4r2_marker_publisher/ament_cmake_core/mocap4r2_marker_publisherConfig-version.cmake

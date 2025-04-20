@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/tb2_control/launch/tb2_control_launch.py

@@ -1,2 +1,0 @@
-[console_scripts]
-tb2_controller = tb2_control.tb2_control:main

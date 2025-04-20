@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/message_filters/src/message_filters/__init__.py

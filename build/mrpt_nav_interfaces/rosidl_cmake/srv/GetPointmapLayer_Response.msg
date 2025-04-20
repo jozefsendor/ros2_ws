@@ -1,3 +1,0 @@
-
-bool valid
-sensor_msgs/PointCloud2 points

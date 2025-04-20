@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_nav_interfaces/rosidl_typesupport_fastrtps_c/mrpt_nav_interfaces/msg/detail/navigation_final_status__rosidl_typesupport_fastrtps_c.h

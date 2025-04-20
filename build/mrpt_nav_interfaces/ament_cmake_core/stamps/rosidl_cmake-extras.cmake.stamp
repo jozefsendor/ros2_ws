@@ -1,4 +1,0 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(mrpt_nav_interfaces_IDL_FILES "action/NavigateGoal.idl;action/NavigateWaypoints.idl;msg/GeoreferencingMetadata.idl;msg/NavigationFeedback.idl;msg/NavigationFinalStatus.idl;srv/GetLayers.idl;srv/GetGridmapLayer.idl;srv/GetPointmapLayer.idl;srv/MakePlanFromTo.idl;srv/MakePlanTo.idl")
-set(mrpt_nav_interfaces_INTERFACE_FILES "action/NavigateGoal.action;action/NavigateWaypoints.action;msg/GeoreferencingMetadata.msg;msg/NavigationFeedback.msg;msg/NavigationFinalStatus.msg;srv/GetLayers.srv;srv/GetLayers_Request.msg;srv/GetLayers_Response.msg;srv/GetGridmapLayer.srv;srv/GetGridmapLayer_Request.msg;srv/GetGridmapLayer_Response.msg;srv/GetPointmapLayer.srv;srv/GetPointmapLayer_Request.msg;srv/GetPointmapLayer_Response.msg;srv/MakePlanFromTo.srv;srv/MakePlanFromTo_Request.msg;srv/MakePlanFromTo_Response.msg;srv/MakePlanTo.srv;srv/MakePlanTo_Request.msg;srv/MakePlanTo_Response.msg")

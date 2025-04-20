@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/AuxiliarNode.hpp

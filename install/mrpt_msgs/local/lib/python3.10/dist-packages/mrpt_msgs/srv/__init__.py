@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_generator_py/mrpt_msgs/srv/__init__.py

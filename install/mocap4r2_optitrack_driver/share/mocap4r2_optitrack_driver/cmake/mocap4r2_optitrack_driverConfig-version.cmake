@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mocap4r2_optitrack_driver/ament_cmake_core/mocap4r2_optitrack_driverConfig-version.cmake

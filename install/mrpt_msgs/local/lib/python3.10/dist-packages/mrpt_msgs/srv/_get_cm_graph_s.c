@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_generator_py/mrpt_msgs/srv/_get_cm_graph_s.c

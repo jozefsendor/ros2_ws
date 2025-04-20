@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mocap4r2_control_msgs/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp

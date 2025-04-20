@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_typesupport_fastrtps_c/mrpt_msgs/srv/detail/get_cm_graph__rosidl_typesupport_fastrtps_c.h

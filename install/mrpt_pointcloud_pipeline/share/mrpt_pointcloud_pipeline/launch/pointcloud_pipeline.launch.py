@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/src/mrpt_navigation/mrpt_pointcloud_pipeline/launch/pointcloud_pipeline.launch.py

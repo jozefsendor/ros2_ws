@@ -1,1 +1,0 @@
-/home/jozef/ros2_ws/build/mrpt_msgs/rosidl_cmake/srv/GetCMGraph_Request.msg

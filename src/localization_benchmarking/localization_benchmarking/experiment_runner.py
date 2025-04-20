@@ -294,21 +294,25 @@ def main():
                     print(f"Running {algorithm}")
                     rosbag = experiment_params["tune_rosbag"]
                     rosbag_file_dir = os.path.join(rosbags_dir, rosbag)
-                    logger.info(f"### RUN experiment {i} ###")
+                    logger.critical(f"### RUN experiment {i} ###")
                     output = run_experiment(algorithm, params_dir, map_file_dir, rosbag, rosbag_file_dir, run_dir)
 
                     if output == 0:
                         results_csv_dir = os.path.join(run_dir, "results.csv")
                         mean_position_error, _ = calculate_pose_error(results_csv_dir)
-                        plot_results(algorithm, rosbag, run_dir)
 
                         if mean_position_error < best_mean_position_error:
                             best_mean_position_error = mean_position_error
                             best_run_dir = os.path.join(results_dir, "tune", algorithm, "best_run")
-                            os.makedirs(best_run_dir, exist_ok=True)
-                            shutil.copytree(run_dir, best_run_dir, dirs_exist_ok=True)
+                            if os.path.exists(best_run_dir):
+                                shutil.rmtree(best_run_dir)
+                            shutil.copytree(run_dir, best_run_dir)
+                            plot_results(algorithm, rosbag, best_run_dir)
 
+                    logger.critical(f"### FINISH experiment {i} ###")
+                    shutil.rmtree(run_dir)
                     i += 1
+                    
 
         if evaluation_mode and os.path.exists(results_dir):
             
@@ -319,10 +323,9 @@ def main():
                 best_mean_position_error = float('inf')
                 
                 for run in range(runs):
-                    logger.info(f"Running evaluation {run+1}/{runs} for {algorithm} on {rosbag}.")
+                    logger.critical(f"Running evaluation {run+1}/{runs} for {algorithm} on {rosbag}.")
                     run_dir = os.path.join(eval_dir, f"run_{run}")
                     os.makedirs(run_dir, exist_ok=True)
-                    print(f"Running {algorithm}")
                     output = run_experiment(algorithm, best_params_dir, map_file_dir, rosbag, rosbag_file_dir, run_dir)
                     
                     if output == 0:
@@ -342,6 +345,7 @@ def main():
                             best_run_dir = os.path.join(eval_dir, "best_run")
                             os.makedirs(best_run_dir, exist_ok=True)
                             shutil.copytree(run_dir, best_run_dir, dirs_exist_ok=True)
+                    shutil.rmtree(run_dir)
                 
                 avg_position_error = np.mean(position_errors)
                 avg_angle_error = np.mean(angle_errors)
@@ -415,7 +419,7 @@ def main():
                             initial_pose_label = f"pose_{idx}" 
                             update_initial_pose_in_params(best_params_target, initial_pose, algorithm)
                             eval_dir = os.path.join(results_dir, "evaluation", algorithm, f"{rosbag}_{initial_pose_label}")
-                            logger.critical(f"Eval dir: {eval_dir}")
+                            # logger.critical(f"Eval dir: {eval_dir}")
                             os.makedirs(eval_dir, exist_ok=True)
                             summary_results[algorithm][f"{rosbag}_{initial_pose_label}"] = run_evaluation(
                                 algorithm, rosbag, eval_dir, best_params_target, rosbag_file_dir, map_file_dir, 1, True

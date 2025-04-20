@@ -100,6 +100,7 @@ def generate_launch_description():
             'map': map_file,
             'params_file': config_file,
             'use_sim_time': 'false',
+            'autostart_rviz': 'false'
         }.items()
     )
 
@@ -135,12 +136,12 @@ def generate_launch_description():
 
         # Uruchomienie AMCL jeśli wybrano "amcl"
         GroupAction([
-            TimerAction(period=5.0, actions=[LogInfo(msg="-----Launch AMCL-----"), amcl_launch]),
+            TimerAction(period=3.0, actions=[LogInfo(msg="-----Launch AMCL-----"), amcl_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'amcl'"]))),
 
         # Uruchomienie MRPT + map_server jeśli wybrano "mrpt"
         GroupAction([
-            TimerAction(period=5.0, actions=[LogInfo(msg="-----Launch mrpt_map_server-----"), map_server_launch]),
+            TimerAction(period=8.0, actions=[LogInfo(msg="-----Launch mrpt_map_server-----"), map_server_launch]),
             TimerAction(period=10.0, actions=[LogInfo(msg="-----Launch mrpt-----"), mrpt_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'mrpt'"]))),
         TimerAction(period=15.0,actions=[LogInfo(msg="-----Launch data_logger-----"),data_logger_node])

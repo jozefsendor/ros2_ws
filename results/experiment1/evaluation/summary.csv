@@ -1,3 +1,2 @@
-Algorithm,square1,eight1,square1_pose_0,square1_pose_1
-amcl,"64.88, 1.08","78.57, 1.16","513.48, 6.26","2375.83, 10.92"
-mrpt,"176.16, 1.34","185.33, 6.07","174.19, 1.33","173.50, 1.34"
+Algorithm,square1old,eight1old,square1old_pose_0,square1old_pose_1,eight1old_pose_0,eight1old_pose_1
+mrpt,"140.14, 75.99","120.71, 75.73","156.57, 75.20","130.76, 76.30","142.48, 75.67","156.40, 75.53"

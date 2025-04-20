@@ -31,6 +31,14 @@ maps/labbb7.data
 maps/labbb7.pgm
 maps/labbb7.posegraph
 maps/labbb7.yaml
+maps/map1.data
+maps/map1.pgm
+maps/map1.posegraph
+maps/map1.yaml
+maps/map2.data
+maps/map2.pgm
+maps/map2.posegraph
+maps/map2.yaml
 maps/test.pgm
 maps/test.yaml
 resource/localization_benchmarking

@@ -8,6 +8,29 @@ experiment:
   experiments:
     experiment1:
       # Map - map name for experiment(tune_rosbags and evaluation_rosbags)
+      map: labb7
+      # Tune - enable tuning algorithms parameters
+      tune: true
+      # Tune rosbag- rosbag on which algorithms params will be tuned
+      tune_rosbag: eight1old
+      # Evaluation - enable algorithms evaluation
+      evaluation: true
+      # Evaluation runs - number of runs for evaluating the algorithm on one rosbag
+      evaluation_runs: 3
+      # Evaluation rosbags - rosbags on which algorithms performace will be tested
+      # evaluation rosbags 1 - rosbags without any changes in the map
+      # evaluation rosnags 2 - rosbags with changes in the map
+      evaluation_rosbags_1: [square1old, eight1old]
+      evaluation_rosbags_2: [square1old]
+      # Initial pose values used to evaluation of the algorithms convergence
+      initial_pose:
+        x: [-0.2, -0.4] 
+        y: 0.0
+        yaw: 0.0
+        z: 0.0
+
+    experiment2:
+      # Map - map name for experiment(tune_rosbags and evaluation_rosbags)
       map: map1
       # Tune - enable tuning algorithms parameters
       tune: true
@@ -24,32 +47,33 @@ experiment:
       evaluation_rosbags_2: [square12, eight12]
       # Initial pose values used to evaluation of the algorithms convergence
       initial_pose:
-        x: [-0.2, -2.0] 
+        x: [0.1, 0.2] 
         y: 0.0
         yaw: 0.0
         z: 0.0
-    experiment2:
-          # Map - map name for experiment(tune_rosbags and evaluation_rosbags)
-        map: map2
-        # Tune - enable tuning algorithms parameters
-        tune: true
-        # Tune rosbag- rosbag on which algorithms params will be tuned
-        tune_rosbag: eight2
-        # Evaluation - enable algorithms evaluation
-        evaluation: true
-        # Evaluation runs - number of runs for evaluating the algorithm on one rosbag
-        evaluation_runs: 3
-        # Evaluation rosbags - rosbags on which algorithms performace will be tested
-        # evaluation rosbags 1 - rosbags without any changes in the map
-        # evaluation rosnags 2 - rosbags with changes in the map
-        evaluation_rosbags_1: [square2]
-        evaluation_rosbags_2: [square22, eight22]
-        # Initial pose values used to evaluation of the algorithms convergence
-        initial_pose:
-          x: [-0.2, -2.0] 
-          y: 0.0
-          yaw: 0.0
-          z: 0.0
+
+    # experiment2:
+    #       # Map - map name for experiment(tune_rosbags and evaluation_rosbags)
+    #     map: map2
+    #     # Tune - enable tuning algorithms parameters
+    #     tune: true
+    #     # Tune rosbag- rosbag on which algorithms params will be tuned
+    #     tune_rosbag: eight2
+    #     # Evaluation - enable algorithms evaluation
+    #     evaluation: true
+    #     # Evaluation runs - number of runs for evaluating the algorithm on one rosbag
+    #     evaluation_runs: 3
+    #     # Evaluation rosbags - rosbags on which algorithms performace will be tested
+    #     # evaluation rosbags 1 - rosbags without any changes in the map
+    #     # evaluation rosnags 2 - rosbags with changes in the map
+    #     evaluation_rosbags_1: [square2, eight2]
+    #     evaluation_rosbags_2: [square22, eight22]
+    #     # Initial pose values used to evaluation of the algorithms convergence
+    #     initial_pose:
+    #       x: [0.1, 0.2] 
+    #       y: 0.0
+    #       yaw: 0.0
+    #       z: 0.0
 
 mocap:
   # dx, dy, dz [m] are distances between mocap base point and robor base point (base_link)
@@ -73,113 +97,119 @@ rosbag_generator:
 algorithms:
   # amcl:
   #   amcl:
+  #     # ros__parameters:
+  #     #   alpha1: 0.2
+  #     #   alpha2: 0.2
+  #     #   alpha3: 0.2
+  #     #   alpha4: 0.2
+  #     #   alpha5: 0.2
+  #     #   always_reset_initial_pose: false
+  #     #   base_frame_id: base_footprint
+  #     #   beam_skip_distance: 0.5
+  #     #   beam_skip_error_threshold: [0.6, 0.9]
+  #     #   beam_skip_threshold: 0.3
+  #     #   do_beamskip: [true, false]
+  #     #   first_map_only: false
+  #     #   global_frame_id: map
+  #     #   initial_pose:
+  #     #     x: 0.0
+  #     #     y: 0.0
+  #     #     yaw: 0.0
+  #     #     z: 0.0
+  #     #   lambda_short: 0.1
+  #     #   laser_likelihood_max_dist: 2.0
+  #     #   laser_max_range: -1.0
+  #     #   laser_min_range: -1.0
+  #     #   laser_model_type: [likelihood_field, beam, likelihood_field_prob]
+  #     #   map_topic: map
+  #     #   max_beams: [50,100, 150]
+  #     #   max_particles: [500, 1000, 5000]
+  #     #   min_particles: [100, 500]
+  #     #   odom_frame_id: odom
+  #     #   pf_err: [0.05, 0.02]
+  #     #   pf_z: 0.99
+  #     #   recovery_alpha_fast: 0.1
+  #     #   recovery_alpha_slow: 0.001
+  #     #   resample_interval: 1
+  #     #   robot_model_type: nav2_amcl::DifferentialMotionModel
+  #     #   save_pose_rate: 10.0
+  #     #   scan_topic: /tb6/scan
+  #     #   set_initial_pose: true
+  #     #   sigma_hit: [0.2, 0.1]
+  #     #   tf_broadcast: true
+  #     #   transform_tolerance: 1.0
+  #     #   update_min_a: 0.05
+  #     #   update_min_d: 0.05
+  #     #   z_hit: [0.5, 0.8]
+  #     #   z_max: 0.05
+  #     #   z_rand: 0.5
+  #     #   z_short: 0.05
+  
+  # amcl:
+  #   amcl:
   #     ros__parameters:
-  #       # alpha1: 0.2
-  #       # alpha2: 0.2
-  #       # alpha3: 0.2
-  #       # alpha4: 0.2
-  #       # alpha5: 0.2
-  #       # always_reset_initial_pose: false
-  #       # base_frame_id: base_footprint
-  #       # beam_skip_distance: 0.5
-  #       # beam_skip_error_threshold: [0.5,0.9]
-  #       # beam_skip_threshold: 0.3
-  #       # do_beamskip: [true, false]
-  #       # first_map_only: false
-  #       # global_frame_id: map
-  #       # initial_pose:
-  #       #   x: -2.0
-  #       #   y: 2.0
-  #       #   yaw: 1.0
-  #       #   z: 0.0
-  #       # lambda_short: 0.1
-  #       # laser_likelihood_max_dist: 2.0
-  #       # laser_max_range: -1.0
-  #       # laser_min_range: -1.0
-  #       # laser_model_type: [likelihood_field, beam, likelihood_field_prob]
-  #       # map_topic: map
-  #       # max_beams: [60,100]
-  #       # max_particles: [2000,5000,10000]
-  #       # min_particles: [500, 1000]
-  #       # odom_frame_id: odom
-  #       # pf_err: [0.05, 0.02]
-  #       # pf_z: 0.99
-  #       # recovery_alpha_fast: 0.1
-  #       # recovery_alpha_slow: 0.001
-  #       # resample_interval: 1
-  #       # robot_model_type: nav2_amcl::DifferentialMotionModel
-  #       # save_pose_rate: [0.5, 5.0]
-  #       # scan_topic: /tb6/scan
-  #       # set_initial_pose: true
-  #       # sigma_hit: [0.2, 0.1]
-  #       # tf_broadcast: true
-  #       # transform_tolerance: 1.0
-  #       # update_min_a: 0.05
-  #       # update_min_d: 0.05
-  #       # z_hit: 0.5
-  #       # z_max: 0.05
-  #       # z_rand: 0.5
-  #       # z_short: 0.05
   #       alpha1: 0.2
   #       alpha2: 0.2
   #       alpha3: 0.2
   #       alpha4: 0.2
   #       alpha5: 0.2
-  #       always_reset_initial_pose: false
-  #       base_frame_id: base_footprint
+  #       base_frame_id: "base_footprint"
+  #       service_introspection_mode: "disabled"
   #       beam_skip_distance: 0.5
-  #       beam_skip_error_threshold: 0.5
+  #       beam_skip_error_threshold: 0.9
   #       beam_skip_threshold: 0.3
-  #       do_beamskip: true
-  #       first_map_only: false
-  #       global_frame_id: map
-  #       initial_pose:
-  #         x: 0.0
-  #         y: 0.0
-  #         yaw: 0.0
-  #         z: 0.0
+  #       do_beamskip: [true, false]
+  #       global_frame_id: "map"
   #       lambda_short: 0.1
   #       laser_likelihood_max_dist: 2.0
-  #       laser_max_range: -1.0
+  #       laser_max_range: 100.0
   #       laser_min_range: -1.0
-  #       laser_model_type: likelihood_field_prob
-  #       map_topic: map
-  #       max_beams: 100
-  #       max_particles: [2000, 5000]
-  #       min_particles: 1000
-  #       odom_frame_id: odom
+  #       laser_model_type: "likelihood_field"
+  #       max_beams: [60, 100]
+  #       max_particles: [500, 2000, 5000, 10000]
+  #       min_particles: [100, 500]
+  #       odom_frame_id: "odom"
   #       pf_err: [0.05, 0.02]
   #       pf_z: 0.99
   #       recovery_alpha_fast: 0.1
   #       recovery_alpha_slow: 0.001
   #       resample_interval: 1
-  #       robot_model_type: nav2_amcl::DifferentialMotionModel
-  #       save_pose_rate: [1.0, 5.0]
-  #       scan_topic: /tb6/scan
-  #       set_initial_pose: true
-  #       sigma_hit: 0.1
+  #       robot_model_type: "nav2_amcl::DifferentialMotionModel"
+  #       save_pose_rate: 10.0
+  #       sigma_hit: [0.2, 0.1]
   #       tf_broadcast: true
   #       transform_tolerance: 1.0
   #       update_min_a: 0.05
   #       update_min_d: 0.05
-  #       z_hit: 0.5
+  #       z_hit: [0.5, 0.8]
   #       z_max: 0.05
   #       z_rand: 0.5
   #       z_short: 0.05
+  #       scan_topic: /tb6/scan
+  #       map_topic: map
+  #       set_initial_pose: true
+  #       always_reset_initial_pose: false
+  #       first_map_only: false
+  #       initial_pose:
+  #         x: 0.0
+  #         y: 0.0
+  #         z: 0.0
+  #         yaw: 0.0
+
   #   map_server:
   #     ros__parameters:
   #       use_sim_time: True
   #       # Overridden in launch by the "map" launch configuration or provided default value.
   #       # To use in yaml, remove the default "map" value in the tb3_simulation_launch.py file & provide full path to map below.
   #       yaml_filename: ""
-
+  
   mrpt:
     /**:
       ros__parameters:
         gnss_samples_num_sigmas: 6.0
         gui_camera_follow_robot: true
         gui_enable: true
-        initial_particles_per_m2: 5000
+        initial_particles_per_m2: 100000
         initial_pose:
           mean:
             pitch: 0.0
@@ -192,7 +222,7 @@ algorithms:
           std_roll: 0.0
           std_x: 0.2
           std_y: 0.2
-          std_yaw: 0.4
+          std_yaw: 0.1
           std_z: 0.0
         kld_options:
           KLD_binSize_PHI: 0.17
@@ -200,30 +230,30 @@ algorithms:
           KLD_delta: 0.05
           KLD_epsilon: 0.05
           KLD_maxSampleSize: 5000
-          KLD_minSampleSize: 50
-          KLD_minSamplesPerBin: 0
+          KLD_minSampleSize: 100
+          KLD_minSamplesPerBin: 1
         motion_model_2d:
           gaussianModel:
-            a1: 0.02
-            a2: 0.001
-            a3: 1.0
-            a4: 0.25
-            minStdPHI: 0.4
-            minStdXY: 0.02
+            a1: 0.01
+            a2: 0.005
+            a3: 0.01
+            a4: 0.005
+            minStdPHI: 0.01
+            minStdXY: 0.005
           modelSelection: mmGaussian
           thrunModel:
-            additional_std_XY: 0.1
-            additional_std_phi: 0.2
-            alfa1_rot_rot: 0.1
-            alfa2_rot_trans: 0.1
-            alfa3_trans_trans: 0.1
-            alfa4_trans_rot: 0.1
+            additional_std_XY: 0.02
+            additional_std_phi: 0.05
+            alfa1_rot_rot: 0.05
+            alfa2_rot_trans: 0.05
+            alfa3_trans_trans: 0.05
+            alfa4_trans_rot: 0.05
         motion_model_3d:
           modelSelection: mmGaussian
         motion_model_no_odom_2d:
           gaussianModel:
-            minStdPHI: 5.0
-            minStdXY: 0.4
+            minStdPHI: 2.0
+            minStdXY: 0.1
           modelSelection: mmGaussian
         motion_model_no_odom_3d:
           modelSelection: mmGaussian
@@ -231,9 +261,9 @@ algorithms:
           LF_decimation: 1
           LF_maxCorrsDistance: 1.0
           LF_maxRange: 81.0
-          LF_stdHit: 2.0
-          LF_zHit: 0.9
-          LF_zRandom: 0.1
+          LF_stdHit: 1.0
+          LF_zHit: 0.95
+          LF_zRandom: 0.05
           likelihoodMethod: lmLikelihoodField_Thrun
         override_likelihood_point_maps:
           decimation: 50
@@ -241,21 +271,106 @@ algorithms:
           sigma_dist: 0.1
         pf_options:
           BETA: 0.5
-          PF_algorithm: pfStandardProposal
-          adaptiveSampleSize: true
-          max_loglikelihood_dyn_range: 15
+          adaptiveSampleSize: false
+          PF_algorithm: pfAuxiliaryPFStandard
+          max_loglikelihood_dyn_range: 10
           pfAuxFilterOptimal_MLE: false
-          pfAuxFilterOptimal_MaximumSearchSamples: 500
+          pfAuxFilterOptimal_MaximumSearchSamples: 250
           pfAuxFilterStandard_FirstStageWeightsMonteCarlo: false
           powFactor: 1.0
           resamplingMethod: prMultinomial
-        rate_hz: 20.0
-        relocalization_icp_sigma: 5.0
-        relocalization_initial_divisions_phi: 4
-        relocalization_initial_divisions_xy: 4
-        relocalization_minimum_icp_quality: 0.5
-        relocalization_resolution_phi: 0.2
+        rate_hz: 5.0
+        relocalization_icp_sigma: 2.0
+        relocalization_initial_divisions_phi: 32
+        relocalization_initial_divisions_xy: 32
+        relocalization_minimum_icp_quality: 0.6
+        relocalization_resolution_phi: 5
         relocalization_resolution_xy: 0.1
-        relocalize_num_sigmas: 3.0
+        relocalize_num_sigmas: 2.0
         samples_drawn_from_gnss: 20
         use_se3_pf: false
+
+      # ros__parameters:
+      #   gnss_samples_num_sigmas: 6.0
+      #   gui_camera_follow_robot: true
+      #   gui_enable: true
+      #   initial_particles_per_m2: [500, 1000, 5000]
+      #   initial_pose:
+      #     mean:
+      #       pitch: 0.0
+      #       roll: 0.0
+      #       x: 0.0
+      #       y: 0.0
+      #       yaw: 0.0
+      #       z: 0.0
+      #     std_pitch: 0.0
+      #     std_roll: 0.0
+      #     std_x: 0.2
+      #     std_y: 0.2
+      #     std_yaw: 0.4
+      #     std_z: 0.0
+      #   kld_options:
+      #     KLD_binSize_PHI: 0.17
+      #     KLD_binSize_XY: 0.25
+      #     KLD_delta: 0.05
+      #     KLD_epsilon: [0.05, 0.1]
+      #     KLD_maxSampleSize: 5000
+      #     KLD_minSampleSize: 100
+      #     KLD_minSamplesPerBin: 1
+      #   motion_model_2d:
+      #     gaussianModel:
+      #       a1: 0.02
+      #       a2: 0.001
+      #       a3: 1.0
+      #       a4: 0.25
+      #       minStdPHI: 0.4
+      #       minStdXY: 0.02
+      #     modelSelection: mmGaussian
+      #     thrunModel:
+      #       additional_std_XY: 0.1
+      #       additional_std_phi: 0.2
+      #       alfa1_rot_rot: 0.1
+      #       alfa2_rot_trans: 0.1
+      #       alfa3_trans_trans: 0.1
+      #       alfa4_trans_rot: 0.1
+      #   motion_model_3d:
+      #     modelSelection: mmGaussian
+      #   motion_model_no_odom_2d:
+      #     gaussianModel:
+      #       minStdPHI: 2.0
+      #       minStdXY: 0.1
+      #     modelSelection: mmGaussian
+      #   motion_model_no_odom_3d:
+      #     modelSelection: mmGaussian
+      #   override_likelihood_gridmaps:
+      #     LF_decimation: 1
+      #     LF_maxCorrsDistance: 1.0
+      #     LF_maxRange: 81.0
+      #     LF_stdHit: 2.0
+      #     LF_zHit: 0.9
+      #     LF_zRandom: 0.1
+      #     likelihoodMethod: lmLikelihoodField_Thrun
+      #   override_likelihood_point_maps:
+      #     decimation: 50
+      #     max_corr_distance: 1.5
+      #     sigma_dist: 0.1
+      #   pf_options:
+      #     BETA: [0.5, 0.8]
+      #     PF_algorithm: pfAuxiliaryPFStandard
+      #     adaptiveSampleSize: [true, false]
+      #     max_loglikelihood_dyn_range: 10
+      #     pfAuxFilterOptimal_MLE: true
+      #     pfAuxFilterOptimal_MaximumSearchSamples: 500
+      #     pfAuxFilterStandard_FirstStageWeightsMonteCarlo: false
+      #     powFactor: 1.0
+      #     resamplingMethod: prMultinomial
+      #   rate_hz: [1.0 ,5.0, 10.0]
+      #   relocalization_icp_sigma: 2.0
+      #   relocalization_initial_divisions_phi: 8
+      #   relocalization_initial_divisions_xy: 8
+      #   relocalization_minimum_icp_quality: [0.5, 0.8]
+      #   relocalization_resolution_phi: [5, 10]
+      #   relocalization_resolution_xy: [0.1, 0.2]
+      #   relocalize_num_sigmas: 3.0
+      #   samples_drawn_from_gnss: 20
+      #   use_se3_pf: false

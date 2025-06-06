@@ -104,7 +104,7 @@
       adaptiveSampleSize: true
       
       # Resampling of particles will be performed when ESS < BETA. [0.0, 1.0]
-      BETA: 0.5
+      BETA: 0.1
       
       # Options: pfStandardProposal | pfAuxiliaryPFStandard | pfOptimalProposal | pfAuxiliaryPFOptimal
       PF_algorithm: pfStandardProposal

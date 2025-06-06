@@ -51,6 +51,6 @@ def generate_launch_description():
     return LaunchDescription([
         declare_namespace,
         mocap_launch,
-        TimerAction(period=3.0, actions=[activate_mocap_node]),
-        TimerAction(period=1.0, actions=[path_executer_node]),
+        TimerAction(period=2.0, actions=[activate_mocap_node]),
+        TimerAction(period=5.0, actions=[path_executer_node]),
     ])

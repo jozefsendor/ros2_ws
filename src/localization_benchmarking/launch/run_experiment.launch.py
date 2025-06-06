@@ -104,13 +104,27 @@ def generate_launch_description():
         }.items()
     )
 
+    amcl_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(
+            get_package_share_directory('nav2_bringup'), 'launch',
+            'localization_launch.py')),
+        launch_arguments={
+            'map': map_file,
+            'params_file': config_file,
+            'use_sim_time': 'false',
+            'autostart_rviz': 'false'
+        }.items()
+    )
+
     rviz2_node = Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
-        arguments=['-d', os.path.join(get_package_share_directory('localization_benchmarking'), 'rviz', 'rviz.rviz')]
+        arguments=[
+            '-d', os.path.join(get_package_share_directory('localization_benchmarking'), 'rviz', 'rviz.rviz'),
+            '--ros-args', '--log-level', 'error' 
+        ]
     )
-
     data_logger_node = Node(
         package='localization_benchmarking',
         executable='data_logger',
@@ -141,8 +155,8 @@ def generate_launch_description():
 
         # Uruchomienie MRPT + map_server jeśli wybrano "mrpt"
         GroupAction([
-            TimerAction(period=8.0, actions=[LogInfo(msg="-----Launch mrpt_map_server-----"), map_server_launch]),
-            TimerAction(period=10.0, actions=[LogInfo(msg="-----Launch mrpt-----"), mrpt_launch]),
+            TimerAction(period=2.0, actions=[LogInfo(msg="-----Launch mrpt_map_server-----"), map_server_launch]),
+            TimerAction(period=4.0, actions=[LogInfo(msg="-----Launch mrpt-----"), mrpt_launch]),
         ], condition=IfCondition(PythonExpression(["'", algorithm, "' == 'mrpt'"]))),
-        TimerAction(period=15.0,actions=[LogInfo(msg="-----Launch data_logger-----"),data_logger_node])
+        TimerAction(period=6.0,actions=[LogInfo(msg="-----Launch data_logger-----"),data_logger_node])
     ])

@@ -12,7 +12,7 @@ import subprocess
 class PathExecuter(Node):
     def __init__(self):
         super().__init__('path_executer')
-        time.sleep(2.0)  # Można usunąć lub zmniejszyć
+        # time.sleep(5.0)  # Można usunąć lub zmniejszyć
 
         self.declare_parameter('path_name', "square")
         self.declare_parameter('path_execution', False)
@@ -46,10 +46,6 @@ class PathExecuter(Node):
         if os.path.exists(self.rosbags_dir):
             shutil.rmtree(self.rosbags_dir)
 
-        self.start_time = time.time()
-        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
-        self.timer = self.create_timer(self.timer_period, self.update_velocity)
-
         self.get_logger().info("Starting rosbag record...")
         self.rosbag_process = subprocess.Popen(
             ['ros2', 'bag', 'record', '-o', self.rosbags_dir, 
@@ -59,6 +55,12 @@ class PathExecuter(Node):
             stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         self.get_logger().info(f"rosbag record started with PID: {self.rosbag_process.pid}")
+
+        time.sleep(5.0)
+
+        self.start_time = time.time()
+        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.timer = self.create_timer(self.timer_period, self.update_velocity)
 
 
     def update_velocity(self):
